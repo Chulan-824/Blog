@@ -54,7 +54,7 @@ mkdir vuepress-starter && cd vuepress-starter
 2. 使用你喜欢的包管理器进行初始化
 
 ```bash
-yarn init # npm init
+yarn init # npm init -y
 ```
 
 3. 将 VuePress 安装为本地依赖
@@ -74,8 +74,8 @@ mkdir docs && echo '# Hello VuePress' > docs/README.md
 ```json
 {
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
 ```
@@ -83,7 +83,7 @@ mkdir docs && echo '# Hello VuePress' > docs/README.md
 6. 在本地启动服务器
 
 ```bash
-yarn docs:dev # npm run docs:dev
+yarn dev # npm run dev
 ```
 
 VuePress 会在 http://localhost:8080 (opens new window) 启动一个热重载的开发服务器
@@ -288,41 +288,38 @@ module.exports = {
 
 ```js
 module.exports = {
-  base: '/',
+  // 路径名为 "/<REPO>/" 这里需要跟仓库同名
+  base: '/vuepress-start/',
   title: '博客搭建',
   description: 'vuepress-start 博客',
   themeConfig: {
     nav: [
-        { text: '首页', link: '/' },
-        { 
-            text: '楚岚的 JavaScript 博客', 
-            items: [
-                { text: 'Github', link: 'https://github.com/Chulan-824' },
-            ]
-        }
+      { text: '首页', link: '/' },
+      {
+        text: '楚岚的 JavaScript 博客',
+        items: [{ text: 'Github', link: 'https://github.com/Chulan-824' }],
+      },
     ],
     sidebar: [
       {
-          title: '欢迎学习',
-          path: '/',
-          collapsable: false, // 不折叠
-          children: [
-              { title: "学前必读", path: "/" }
-          ]
+        title: '欢迎学习',
+        path: '/basic-learning/学前必读',
+        collapsable: false, // 不折叠
+        children: [{ title: '学前必读', path: '/basic-learning/学前必读' }],
       },
       {
-        title: "基础学习",
+        title: '基础学习',
         path: '/basic-learning/html',
         collapsable: false, // 不折叠
         children: [
-          { title: "html", path: "/basic-learning/html" },
-          { title: "css", path: "/basic-learning/css" },
+          { title: 'html', path: '/basic-learning/html' },
+          { title: 'css', path: '/basic-learning/css' },
         ],
-      }
+      },
     ],
-    subSidebar: 'auto'
+    subSidebar: 'auto',
   },
-  theme: 'reco'
+  theme: 'reco',
 }
 ```
 
@@ -335,7 +332,7 @@ module.exports = {
 set -e
 
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
