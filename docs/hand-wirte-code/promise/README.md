@@ -1090,5 +1090,16 @@ MyPromise.race = function (promiseArray) {
 
 我们来简单分析一下，这里使用 for 循环同步执行 promiseArray 数组中所有 Promise 实例的 then 方法，第一个 resolve 的实例会直接触发新的 Promise 实例（ 代码中通过 new 新声明的 ）的 resolve 方法。
 
+## 参考文章
+
+《前端开发核心知识进阶》
+
+https://juejin.cn/post/6844903625769091079
+
+https://juejin.cn/post/7043758954496655397
+
+https://juejin.cn/post/6994594642280857630
+
+
 <SideTitle :page="$page" />
 
