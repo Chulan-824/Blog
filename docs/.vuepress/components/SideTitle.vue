@@ -2,9 +2,9 @@
   <div class="sideTitle">
     <div class="title">{{page.title}}</div>
     <hr>
-    <ul>
-      <li :class="{check: item.check,[`level-${item.level}`]: true}" v-for="item in sideTitleArray" :key="item.title" @click="handleClick(item)">
-        <router-link :to="`${$route.path}#${item.title.replace(/\s|\./g, '-').toLowerCase()}`">{{item.title}}</router-link>
+    <ul v-if="page.headers">
+      <li  :class="{check: item.check,[`level-${item.level}`]: true}" v-for="item in sideTitleArray" :key="item.title" @click="handleClick(item)">
+        <router-link :to="`${$route.path}#${item.title.replace(/\s|\.|\“|\”/g, '-').toLowerCase()}`">{{item.title}}</router-link>
       </li>
     </ul>
   </div>
@@ -25,9 +25,9 @@ export default {
     }
   },
 
-  mounted() {
-    console.log(this.page);
-  },
+  // mounted() {
+  //   console.log(this.page);
+  // },
 
   methods: {
     handleClick(item) {
