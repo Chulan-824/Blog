@@ -1094,11 +1094,12 @@ MyPromise.race = function (promiseArray) {
 
 《前端开发核心知识进阶》
 
-https://juejin.cn/post/6844903625769091079
+[BAT前端经典面试问题：史上最最最详细的手写Promise教程](https://juejin.cn/post/6844903625769091079)
 
-https://juejin.cn/post/7043758954496655397
+[手把手一行一行代码教你“手写Promise“，完美通过 Promises/A+ 官方872个测试用例](https://juejin.cn/post/7043758954496655397)
 
-https://juejin.cn/post/6994594642280857630
+[看了就会，手写Promise原理，最通俗易懂的版本！！！](https://juejin.cn/post/6994594642280857630)
+
 
 
 <SideTitle :page="$page" />

@@ -7,6 +7,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '文档搭建', link: '/guide/' },
+      { text: 'Js', link: '/js/base/inherit/' },
       { text: '前端面试', link: '/interview/html/1/' },
       { text: '前端工程化', link: '/engineering/module/' },
       { text: '手写代码', link: '/hand-wirte-code/promise/' },
@@ -25,13 +26,26 @@ module.exports = {
           collapsable: false, // 不折叠
         }
       ],
-
+      '/js/': getSidebarForJs(),
       '/interview/': getSidebarForInterview(),
       '/engineering/': getSidebarForEngineering(),
       '/hand-wirte-code/': getSidebarForHandWriteCode(),
       '/react-ssr/': getSidebarForReactSSR(),
     },
   },
+}
+
+function getSidebarForJs() {
+  return [
+    {
+      title: 'Js基础',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: [
+        "/js/base/inherit",
+      ]
+    },
+  ]
 }
 
 function getSidebarForInterview() {
@@ -52,6 +66,7 @@ function getSidebarForInterview() {
       children: [
         "/interview/css/1",
         "/interview/css/2",
+        "/interview/css/3",
       ]
     }
   ]
