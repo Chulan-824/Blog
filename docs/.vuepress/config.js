@@ -11,10 +11,11 @@ module.exports = {
       { text: '前端面试', link: '/interview/html/1/' },
       { text: '前端工程化', link: '/engineering/module/' },
       { text: '手写代码', link: '/hand-wirte-code/promise/' },
+      { text: 'Git', link: '/Git/rebase/' },
       { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
       {
         text: 'Github',
-        link: 'https://github.com/Chulan-824'
+        link: 'https://github.com/Chulan-824',
       },
     ],
     sidebar: {
@@ -24,12 +25,13 @@ module.exports = {
           path: '/guide/',
           sidebarDepth: -1,
           collapsable: false, // 不折叠
-        }
+        },
       ],
       '/js/': getSidebarForJs(),
       '/interview/': getSidebarForInterview(),
       '/engineering/': getSidebarForEngineering(),
       '/hand-wirte-code/': getSidebarForHandWriteCode(),
+      '/Git/': getGit(),
       '/react-ssr/': getSidebarForReactSSR(),
     },
   },
@@ -41,9 +43,7 @@ function getSidebarForJs() {
       title: 'Js基础',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/js/base/inherit",
-      ]
+      children: ['/js/base/inherit'],
     },
   ]
 }
@@ -54,21 +54,14 @@ function getSidebarForInterview() {
       title: 'html',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/interview/html/1",
-        "/interview/html/2",
-      ]
+      children: ['/interview/html/1', '/interview/html/2'],
     },
     {
       title: 'css',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/interview/css/1",
-        "/interview/css/2",
-        "/interview/css/3",
-      ]
-    }
+      children: ['/interview/css/1', '/interview/css/2', '/interview/css/3'],
+    },
   ]
 }
 
@@ -78,10 +71,8 @@ function getSidebarForEngineering() {
       title: '前端工程化',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/engineering/module/"
-      ]
-    }
+      children: ['/engineering/module/'],
+    },
   ]
 }
 
@@ -91,10 +82,19 @@ function getSidebarForHandWriteCode() {
       title: '手写代码',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/hand-wirte-code/promise/"
-      ]
-    }
+      children: ['/hand-wirte-code/promise/', '/hand-wirte-code/map/'],
+    },
+  ]
+}
+
+function getGit() {
+  return [
+    {
+      title: 'rebase合并多次提交',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: ['/Git/rebase/'],
+    },
   ]
 }
 
@@ -104,9 +104,7 @@ function getSidebarForReactSSR() {
       title: 'React-SSR',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: [
-        "/react-ssr/native-ssr/"
-      ]
-    }
+      children: ['/react-ssr/native-ssr/'],
+    },
   ]
 }
