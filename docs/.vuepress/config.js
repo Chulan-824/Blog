@@ -82,7 +82,14 @@ function getSidebarForHandWriteCode() {
       title: '手写代码',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: ['/hand-wirte-code/promise/', '/hand-wirte-code/map/'],
+      children: [
+        '/hand-wirte-code/promise/',
+        '/hand-wirte-code/map/',
+        '/hand-wirte-code/reduce/',
+        '/hand-wirte-code/push/',
+        '/hand-wirte-code/pop/',
+        '/hand-wirte-code/splice/',
+      ],
     },
   ]
 }

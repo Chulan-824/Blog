@@ -1,4 +1,4 @@
-# 手写-数组Map
+# 手写-数组map
 
 ## 草案分析
 
@@ -48,7 +48,7 @@ Array.prototype.map = function (callbackFn, thisArg = {}) {
 
 ### 属性判断
 
-遍历时判断用 `in` 而不是 `hasOwnProperty`, `in` 可以查找到原型链上的属性，而 `hasOwnProperty` 只能查找私有属性
+- 遍历时判断用 `in` 而不是 `hasOwnProperty`, `in` 可以查找到原型链上的属性，而 `hasOwnProperty` 只能查找私有属性
 
 ```js
 function MyArray () {}
@@ -63,6 +63,8 @@ console.log('newMyArray', newMyArray); // [2, 4, 6]
 
 //如果用 hasOwnProperty 判断，结果则是 [empty × 3]
 ```
+
+- 也可以提高对 `[1, , , , , , 2, , , , , 3, , , , , 4]` 稀疏数组处理的性能
 
 ## 参考文章
 
