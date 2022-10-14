@@ -1,7 +1,7 @@
 module.exports = {
   title: '前端知识体系构建',
   description: '楚岚博客',
-  base: '/vuepress-start/',
+  base: '/Chulan-Blog/',
   // base: '/',
   themeConfig: {
     nav: [
@@ -11,6 +11,7 @@ module.exports = {
       { text: '前端面试', link: '/interview/html/1/' },
       { text: '前端工程化', link: '/engineering/module/' },
       { text: '手写代码', link: '/hand-wirte-code/promise/' },
+      { text: '计算机网络', link: '/Http/base/' },
       { text: 'Git', link: '/Git/rebase/' },
       { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
       {
@@ -31,6 +32,7 @@ module.exports = {
       '/interview/': getSidebarForInterview(),
       '/engineering/': getSidebarForEngineering(),
       '/hand-wirte-code/': getSidebarForHandWriteCode(),
+      '/Http/': getSidebarForHttp(),
       '/Git/': getGit(),
       '/react-ssr/': getSidebarForReactSSR(),
     },
@@ -90,6 +92,17 @@ function getSidebarForHandWriteCode() {
         '/hand-wirte-code/pop/',
         '/hand-wirte-code/splice/',
       ],
+    },
+  ]
+}
+
+function getSidebarForHttp() {
+  return [
+    {
+      title: '计算机网络',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: ['/Http/base/'],
     },
   ]
 }
