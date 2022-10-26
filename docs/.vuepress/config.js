@@ -14,6 +14,7 @@ module.exports = {
       { text: '计算机网络', link: '/Http/base/' },
       { text: 'Git', link: '/Git/rebase/' },
       { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
+      { text: '项目优化', link: '/project-optimization/chapter/' },
       {
         text: 'Github',
         link: 'https://github.com/Chulan-824',
@@ -35,6 +36,17 @@ module.exports = {
       '/Http/': getSidebarForHttp(),
       '/Git/': getGit(),
       '/react-ssr/': getSidebarForReactSSR(),
+      '/project-optimization/': getProjectOptimization(),
+    },
+  },
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: 'img.zoom-custom-imgs',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      options: {
+        margin: 16,
+      },
     },
   },
 }
@@ -125,6 +137,17 @@ function getSidebarForReactSSR() {
       collapsable: false, // 不折叠
       sidebarDepth: 0,
       children: ['/react-ssr/native-ssr/'],
+    },
+  ]
+}
+
+function getProjectOptimization() {
+  return [
+    {
+      title: '项目优化',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: ['/project-optimization/chapter/'],
     },
   ]
 }

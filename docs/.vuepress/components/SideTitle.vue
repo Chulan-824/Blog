@@ -1,10 +1,20 @@
 <template>
   <div class="sideTitle">
-    <div class="title">{{page.title}}</div>
-    <hr>
+    <div class="title">{{ page.title }}</div>
+    <hr />
     <ul v-if="page.headers">
-      <li  :class="{check: item.check,[`level-${item.level}`]: true}" v-for="item in sideTitleArray" :key="item.title" @click="handleClick(item)">
-        <router-link :to="`${$route.path}#${item.title.replace(/\s|\.|\“|\”/g, '-').toLowerCase()}`">{{item.title}}</router-link>
+      <li
+        :class="{ check: item.check, [`level-${item.level}`]: true }"
+        v-for="item in sideTitleArray"
+        :key="item.title"
+        @click="handleClick(item)"
+      >
+        <router-link
+          :to="`${$route.path}#${item.title
+            .replace(/\s|\.|\“|\”/g, '-')
+            .toLowerCase()}`"
+          >{{ item.title }}</router-link
+        >
       </li>
     </ul>
   </div>
@@ -15,13 +25,13 @@ export default {
   props: {
     page: {
       type: Object,
-      require: true
-    }
+      require: true,
+    },
   },
 
   data() {
     return {
-      sideTitleArray: [...this.page.headers]
+      sideTitleArray: [...this.page.headers],
     }
   },
 
@@ -31,7 +41,7 @@ export default {
 
   methods: {
     handleClick(item) {
-      this.sideTitleArray = this.sideTitleArray.map(el => {
+      this.sideTitleArray = this.sideTitleArray.map((el) => {
         if (el.title === item.title) {
           el.check = true
         } else {
@@ -40,9 +50,8 @@ export default {
         return el
       })
     },
-  }
+  },
 }
-
 </script>
 <style scoped lang="stylus">
 .sideTitle {
@@ -81,7 +90,7 @@ a:hover{
 }
 .level-3 {
   margin-left 2.2rem
-  list-style-type: circle 
+  list-style-type: circle
 }
 
 .check{
