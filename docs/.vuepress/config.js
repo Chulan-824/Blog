@@ -14,6 +14,7 @@ module.exports = {
       { text: '计算机网络', link: '/Http/base/' },
       { text: 'Git', link: '/Git/rebase/' },
       { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
+      { text: 'Vue设计与实现笔记', link: '/vue/concept/' },
       { text: '项目优化', link: '/project-optimization/chapter/' },
       {
         text: 'Github',
@@ -36,6 +37,7 @@ module.exports = {
       '/Http/': getSidebarForHttp(),
       '/Git/': getGit(),
       '/react-ssr/': getSidebarForReactSSR(),
+      '/vue/': getSidebarForVue(),
       '/project-optimization/': getProjectOptimization(),
     },
   },
@@ -137,6 +139,17 @@ function getSidebarForReactSSR() {
       collapsable: false, // 不折叠
       sidebarDepth: 0,
       children: ['/react-ssr/native-ssr/'],
+    },
+  ]
+}
+
+function getSidebarForVue() {
+  return [
+    {
+      title: 'Vue',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: ['/vue/concept/'],
     },
   ]
 }

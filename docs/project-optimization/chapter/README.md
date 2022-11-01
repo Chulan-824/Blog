@@ -123,6 +123,7 @@ import { C } from "@/services/module-C"
 
 [react 元素类型的符号](https://github.com/facebook/react/blob/main/packages/shared/ReactSymbols.js)
 
+<img class="zoom-custom-imgs  emoji" src="./images/emoji2.png" width="30%" >
 
 ## 👻代码细节
 
@@ -184,8 +185,7 @@ module.exports = {
 [eslint-plugin-import 真香](https://juejin.cn/post/7101703726733361183)
 
 
-舒服了
-
+<img class="zoom-custom-imgs  emoji" src="./images/emoji3.png" width="30%" >
 
 ### 删-注释、不必要console
 
@@ -212,6 +212,8 @@ module.exports = {
 <img class="zoom-custom-imgs" src="./images/19.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/20.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/21.png" width="30%">
+
+<img class="zoom-custom-imgs  emoji" src="./images/emoji4.png" width="30%" >
 
 ### 改-代码细节
 
@@ -260,6 +262,8 @@ module.exports = {
 <img class="zoom-custom-imgs" src="./images/40.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/41.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/42.png" width="30%">
+
+<img class="zoom-custom-imgs  emoji" src="./images/emoji5.png" width="30%" >
 
 ### 查
 
@@ -326,6 +330,9 @@ module.exports = {
 <img class="zoom-custom-imgs" src="./images/50.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/51.png" width="30%">
 <img class="zoom-custom-imgs" src="./images/52.png" width="30%">
+
+<img class="zoom-custom-imgs  emoji" src="./images/emoji6.gif" width="30%" >
+
 
 
 
