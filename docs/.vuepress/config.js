@@ -14,6 +14,7 @@ module.exports = {
       { text: '计算机网络', link: '/Http/base/' },
       { text: 'Git', link: '/Git/rebase/' },
       { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
+      { text: 'React设计原理', link: '/react-design-principle/overview/know/' },
       { text: 'Vue设计与实现笔记', link: '/vue/concept/' },
       { text: '项目优化', link: '/project-optimization/chapter/' },
       {
@@ -36,6 +37,7 @@ module.exports = {
       '/hand-wirte-code/': getSidebarForHandWriteCode(),
       '/Http/': getSidebarForHttp(),
       '/Git/': getGit(),
+      '/react-design-principle/': getReactDesignPrinciple(),
       '/react-ssr/': getSidebarForReactSSR(),
       '/vue/': getSidebarForVue(),
       '/project-optimization/': getProjectOptimization(),
@@ -128,6 +130,21 @@ function getGit() {
       collapsable: false, // 不折叠
       sidebarDepth: 0,
       children: ['/Git/rebase/'],
+    },
+  ]
+}
+
+function getReactDesignPrinciple() {
+  return [
+    {
+      title: '理念篇',
+      collapsable: false, // 不折叠
+      sidebarDepth: 0,
+      children: [
+        '/react-design-principle/overview/know',
+        '/react-design-principle/overview/technology',
+        '/react-design-principle/overview/realize',
+      ],
     },
   ]
 }
