@@ -139,11 +139,20 @@ function getReactDesignPrinciple() {
     {
       title: '理念篇',
       collapsable: false, // 不折叠
-      sidebarDepth: 0,
+      sidebarDepth: 2,
       children: [
         '/react-design-principle/overview/know',
-        '/react-design-principle/overview/technology',
-        '/react-design-principle/overview/realize',
+        '/react-design-principle/overview/react-concept',
+        '/react-design-principle/overview/render',
+      ],
+    },
+    {
+      title: '实现篇',
+      collapsable: false, // 不折叠
+      sidebarDepth: 2,
+      children: [
+        '/react-design-principle/realize/init',
+        '/react-design-principle/realize/jsx',
       ],
     },
   ]

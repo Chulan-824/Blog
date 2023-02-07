@@ -215,4 +215,18 @@ VDOM 的主要优点：
 2. 相较于 AOT 更强大的描述能力
 3. 多平台渲染的抽象能力
 
+## 前端框架的实现原理
+
+1. Svelte：借由模版语法的约束，经过 AOT 的编译优化，直接建立 “自变量与元素的对应关系”
+2. Vue3：通过 watchEffect 与自变量形成发布订阅关系，自变量变化触发 render 函数通过 patch 与 prevVDOM 进行对比更新，建立在 ”自变量与组件的对应关系“
+3. React：改变自变量 => reconcile(VDOM 相关操作) => commit，每次更新都是从应用的根节点开始遍历整个应用
+
+虽然 React 每次遍历整个应用，但是性能并不会很差，一方面 React 内部有优化机制(优先级调度、Time Slice(时间切片)、Hooks、Suspense)，另一方面 React 提供了相关 API 来减少无意义的遍历，比如 shouldComponentsUpdate、React.Memo、PureComponent
+
+从 ”编译时或者运行时“ 的角度看待框架
+
+- Svelte 是极致的编译时框架
+- React 是极致的运行时框架
+- Vue3 同时拥有两者的特性（AOT 和 VDOM），比较均衡
+
 <SideTitle :page="$page" />
