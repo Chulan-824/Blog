@@ -1,4 +1,3 @@
 # rendervscode 
 
 
-<SideTitle :page="$page" />
