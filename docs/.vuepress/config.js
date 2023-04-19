@@ -158,6 +158,7 @@ function getReactDesignPrinciple() {
         '/react-design-principle/realize/vite',
         '/react-design-principle/realize/hooks',
         '/react-design-principle/realize/jest',
+        '/react-design-principle/realize/explorationUpdate',
       ],
     },
   ]
