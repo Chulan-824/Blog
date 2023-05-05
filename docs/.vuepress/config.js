@@ -161,6 +161,7 @@ function getReactDesignPrinciple() {
         '/react-design-principle/realize/explorationUpdate',
         '/react-design-principle/realize/event',
         '/react-design-principle/realize/diff',
+        '/react-design-principle/realize/fragment',
       ],
     },
   ]
