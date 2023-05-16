@@ -6,17 +6,17 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档搭建', link: '/guide/' },
+      // { text: '文档搭建', link: '/guide/' },
       { text: 'Js', link: '/js/base/inherit/' },
-      { text: '前端面试', link: '/interview/html/1/' },
+      // { text: '前端面试', link: '/interview/html/1/' },
       { text: '前端工程化', link: '/engineering/module/' },
       { text: '手写代码', link: '/hand-wirte-code/promise/' },
       { text: '计算机网络', link: '/Http/base/' },
       { text: 'Git', link: '/Git/rebase/' },
-      { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
+      // { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
       { text: 'React设计原理', link: '/react-design-principle/overview/know/' },
       { text: 'Vue设计与实现笔记', link: '/vue/concept/' },
-      { text: '项目优化', link: '/project-optimization/chapter/' },
+      // { text: '项目优化', link: '/project-optimization/chapter/' },
       {
         text: 'Github',
         link: 'https://github.com/Chulan-824',
@@ -163,6 +163,7 @@ function getReactDesignPrinciple() {
         '/react-design-principle/realize/diff',
         '/react-design-principle/realize/fragment',
         '/react-design-principle/realize/lane',
+        '/react-design-principle/realize/useEffect',
       ],
     },
   ]
