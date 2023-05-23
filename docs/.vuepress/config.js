@@ -17,6 +17,7 @@ module.exports = {
       { text: 'React设计原理', link: '/react-design-principle/overview/know/' },
       { text: 'Vue设计与实现笔记', link: '/vue/concept/' },
       // { text: '项目优化', link: '/project-optimization/chapter/' },
+      // { text: 'English Grammar', link: '/english/elementary/noun/' },
       {
         text: 'Github',
         link: 'https://github.com/Chulan-824',
@@ -41,6 +42,7 @@ module.exports = {
       '/react-ssr/': getSidebarForReactSSR(),
       '/vue/': getSidebarForVue(),
       '/project-optimization/': getProjectOptimization(),
+      '/english/': getEnglish(),
     },
   },
   plugins: {
@@ -164,6 +166,7 @@ function getReactDesignPrinciple() {
         '/react-design-principle/realize/fragment',
         '/react-design-principle/realize/lane',
         '/react-design-principle/realize/useEffect',
+        '/react-design-principle/realize/noopRenderer',
       ],
     },
   ]
@@ -198,6 +201,17 @@ function getProjectOptimization() {
       collapsable: false, // 不折叠
       sidebarDepth: 0,
       children: ['/project-optimization/chapter/'],
+    },
+  ]
+}
+
+function getEnglish() {
+  return [
+    {
+      title: '初级语法',
+      collapsable: false, // 不折叠
+      sidebarDepth: 2,
+      children: ['/english/elementary/noun'],
     },
   ]
 }
