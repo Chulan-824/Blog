@@ -168,7 +168,6 @@ function Child() {
 
 除此以外，还需实现`以ReactElement的形式导出树状结构`
 
-<SideTitle :page="$page" />
 
 ## 完善 Reconciler 测试环境
 
@@ -361,3 +360,6 @@ module.exports = {
 - 针对 ReactDOM 宿主环境：ReactTestUtils
 - 针对 Reconciler 的测试：React-Noop-Renderer
 - 针对并发环境的测试：jest-react、Scheduler、React-Noop-Renderer 配合使用
+
+
+<SideTitle :page="$page" />
