@@ -1,3 +1,4 @@
 node_modules
 
-docs/English
+# docs/English
+docs/.vuepress/dist
