@@ -16,7 +16,7 @@ module.exports = {
       // { text: 'React-SSR', link: '/react-ssr/native-ssr/' },
       { text: 'React设计原理', link: '/react-design-principle/overview/know/' },
       { text: 'Vue设计与实现笔记', link: '/vue/concept/' },
-      { text: '项目优化', link: '/project-optimization/chapter/' },
+      // { text: '项目优化', link: '/project-optimization/chapter/' },
       { text: 'English Grammar', link: '/english/elementary/noun/' },
       {
         text: 'Github',
@@ -168,6 +168,7 @@ function getReactDesignPrinciple() {
         '/react-design-principle/realize/useEffect',
         '/react-design-principle/realize/noopRenderer',
         '/react-design-principle/realize/concurrentUpdate',
+        '/react-design-principle/realize/concurrentUpdateRealize',
       ],
     },
   ]
