@@ -202,7 +202,7 @@ function getProjectOptimization() {
       title: '项目优化',
       collapsable: false, // 不折叠
       sidebarDepth: 0,
-      children: ['/project-optimization/chapter/'],
+      children: ['/project-optimization/chapter/', '/project-optimization/ad/'],
     },
   ]
 }
@@ -212,8 +212,8 @@ function getEnglish() {
     {
       title: '初级语法',
       collapsable: false, // 不折叠
-      sidebarDepth: 2,
-      children: ['/english/elementary/noun'],
+      sidebarDepth: 1,
+      children: ['/english/elementary/noun', '/english/elementary/determiner'],
     },
   ]
 }

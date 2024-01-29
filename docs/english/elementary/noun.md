@@ -11,7 +11,7 @@
 5. 篇章（discourse）
 
 ### 功能
-“简单句的主语（如例句1）、宾语（如例句2、3、4）或表语（如例句5）通常由名词短语来充当”
+简单句的主语、宾语或表语通常由名词短语来充当
 
 - 简单句主语 **These red roses** are for you
 - 宾语 I have **three close friends**
@@ -126,7 +126,7 @@
 1. 无法分割的名词
   - 气体：air, fog, oxygen, smoke 等
   - 液体：beer, blood, coffee, cream, gasoline, honey, juice, milk, oil, tea, water, wine 等
-  - 固体：bread, butter, cheese, ice, ice cream, meat, beef（牛肉）, chicken（鸡肉）, fish（鱼肉）, chalk, copper, cotton, glass, gold, iron, paper 等
+  - 固体：bread, butter, cheese, ice, ice cream, meat, beef, chicken, fish, chalk, copper, cotton, glass, gold, iron, paper 等
 2. 一些因其组成部分太小而不易数的名词
   - corn、grass、hair、rice、sand、snow、sugar、salt
 3. 表示总称的名词通常不可数
