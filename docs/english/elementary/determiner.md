@@ -141,14 +141,14 @@ What makes us different from **women of past decades** is our range of choices.
 
 #### 不定冠词的泛指与非泛指用法
 
-1. 用在主语中，具有泛指功能（上文已讨论）
-2. 用在补足语中，表示分类，具有描述功能：在英语中，单数可数名词在作表语时，通常需要一个冠词。如果用不定冠词a/an，则具有描述的功能，而没有所指功能
+1. 用在主语中，**具有泛指功能**（上文已讨论）
+2. 用在补足语中，**表示分类**，具有描述功能：在英语中，单数可数名词在作表语时，通常需要一个冠词。如果用不定冠词a/an，则具有描述的功能，而没有所指功能
   - Bill is an engineer. 比尔是一名工程师。
   - ~~Bill is engineer.~~ ❌ 
   - Bill is the engineer who will design the bridge. 比尔是设计这座桥的工程师。（强调比尔是完成设计桥**这项工作**的工程师）
 3. 用在宾语中，具有所指功能
 
-<table>
+<table style="text-align: center;">
   <tr>
     <td rowSpan="2" />
     <td colSpan="3" >Speaker</td>
@@ -163,21 +163,262 @@ What makes us different from **women of past decades** is our range of choices.
   <tr>
     <td rowSpan="4">Listener</td>
     <td>Specific</td>
-    <td>情形一：对说话者与听话者都是定指(speaker-specific, listeners-specific)例句：How did I do on <b>the</b> test?</td>
+    <td>情形一：对说话者与听话者都是定指(speaker-specific, listeners-specific)例句：How did I do on <b>the</b> test?（<b>特指</b>）</td>
     <td>情形二：对说话者是不定指。对听话者是定指(speaker nonspecific. listener-specific)例句：Don't you have a tutor?</td>
   </tr>
 
   <tr>
     <td>NonSpecific</td>
-    <td>情形三：对说话者是定措。对听话者是不定指(speakerspecific. listener—nonspecific)例句：Mary docs have a small Toyota.</td>
+    <td>情形三：对说话者是定措。对听话者是不定指(speaker-specific. listener—nonspecific)例句：Mary docs have a small Toyota.</td>
     <td>情形四：对说话者与听话者都是不定指 (speaker-nonspecific, listener
-nonspecific)例句：I don't have a car.</td>
+nonspecific)例句：I don't have a car.（<b>泛指</b>）</td>
   </tr>
 
 </table>
 
----------------
-<table>
+在特指与泛指这两个极端情形之间存在着**两类过渡的指代状态**，即对于说话者或听话者某一方来说是定指而对于另一方是不定指。这又可分为两种情形：
+- 对说话者不定指／对听话者定指（如情形二：speaker—nonspecific, listener—specific）
+- 对说话者定指／对听话者不定指（如情形三：speaker—specific, listener—nonspecific）
+
+### 不定冠词a/an与不可数名词
+
+见下表格
+
+### 不定冠词a/an与数词one
+
+不定冠词在历史上起源于非重读形式的one，在当代英语的许多语境中，不定冠词的这种数词功能仍是非常主要的。所以，在下列并列结构中，one可作为a的**强调形式**的等同词而替代a。
+
+- **a** mile or two
+- **one** or two miles
+
+简单地说，one 是作为 a/an 的强调形式。虽然如此，但两者在意义和用法上还是有区别的。下面我们来分别讨论三种宜用 one 的情况以及三种不宜用 one 的情况。
+
+#### 强调数量“一”时用one
+
+当我们想加强口吻或引人注意的时候，我们用 one **强调只有一个／不超过一个(one only/not more than one)**的意思，而 a/an 则没有这个意思，它显得比较平淡、中性。也就是说，one 比 a/an 更强调数量。
+
+Customer: When will they be ready? 顾客：什么时候能洗好？
+Assistant: They take a week. 店员：要一周的时间。
+Customer: One week, right, thanks very much. 顾客：得一周啊，好吧，谢谢。
+
+#### 因为one强调数量，所以常用于准确的对照数字
+
+用one，我们仅考虑到有关数字的方面，或只想**强调只是一个而不是两个或三个**。所以，当我们想准确地对照数字时，我们就要用one。
+
+A: A hundred grams of flour to one egg, yeah, mixed up in the bowl. A: 100克面粉加一个鸡蛋，好，在碗中把它们搅匀。
+B: Right. B：好的。
+
+#### 讲故事中用one
+
+在讲故事或讲述某种经历时，我们常用 one 来**强调人或事物**，作为我们将要讲到的一个重要话题。
+
+- There is **one** place we go to which is a Mexican restaurant, and they have a happy hour between 5:30 and 7:30. 有一个地方是我们常去的，那是一家墨西哥餐馆，那在下午5:30至7:30之问饮料特价。
+- There was **one** lad they used to terrify; they used to tie dead birds on the inside of his desk! 他们以前常吓唬一个少年，曾多次把死鸟鄉在他的书桌里面！
+
+#### 表示类指意义的a/an不能换成one
+
+我们可以用 a/an 表示一类事物，是不定冠词泛指意义的用法。此时，我们就不能用 one 来替换 a/an，否则意思会发生改变。
+
+- A shotgun is no good. 猎枪不行（这种武器不合适）
+- One shotgun is no good. 一支猎枪不行的（需要两枝或更多的猎枪）
+
+#### 表示度量的a/an不能换成one
+
+我们可以用 a/an 来表示度量，以表示价格、速度或比率等概念。这时的 a/an 相当于 per（每，每一），不能换成one。
+
+- The rent is $100 **a week**. ✅ 租金每周100美元。
+- ~~The rent is $100 one week.~~ ❌
+
+类似的短语还有
+
+- ten dollars **a day** 每天10美元
+- $5 **a kilo** 5美元一公斤
+- sixty kilometers **an hour** 每小时60公里
+- four times **a day** 每天四次
+
+#### 表示数量的固定搭配中的a不能换成one
+
+比如：a few, a little, a great many以及a large number of等等
+
+#### 总结
+
+用one，我们仅考虑到有关数字的方面，或只想强调只是一个而不是两个或三个。用于下列三种情况：
+
+1．当我们想加强语气或引人注意的时候，我们用one强调“只有一个”的意思
+2．当我们想准确地对照数字时，如：two kilos of flour and one liter of water
+3．当我们想突出叙述故事中的一件事或一个人，使之成为我们的话题时，用one，这往往用在讲故事中。
+
+但注意在下列情况下不能用one替换a/an：
+
+1．表示类指意义的a/an不能替换成one
+2．表示度量的a/an不能用one
+3．表示数量的固定搭配中的a不能替换成one
+
+### 不定冠词a/an与this
+
+在口头叙述中，当说话者想强调某个人、某个地方或某件事，并使他们变得更加生动时，就可以用this代替a。这个用法在讲笑话时尤为常见。
+
+短文的场景——一位女士在讲述她排错队的事（A woman is telling a story about standing in the wrong queue for something.）
+So I go in **this** queue, and I'm waiting, so I saw them taking names and writing things down, so I had **this** feeling I was in the wrong place, so I thought to myself, "Oh, I'm going from here." But as I was standing at the table **this** person said, "Now then, you're next!
+
+于是我就排到这个队伍里，我在那等着，我看到他们记下名字并写了些什么，这时我感觉我站错地方了，于是我心里想：“哦，我得离开这里。”但是这时我已站在桌子旁边了，这个人说道：“那么，你是下一个！
+
+::: warning 注意
+以上讨论的是，在用非正式的语言进行叙述、讲故事、说笑话时，我们常用 this 代替 a 来指代一个特殊的中心话题。简言之，讲述事情或开玩笑时用 this 代替 a/an。但请注意，在正式的口语或书面语形式中不能使用这种说法。
+:::
+
+### 用／不用冠词的意义区别（the hospital/hospital）
+
+在英文中，有一类表示家居生活和社会事业机构的名词，如hospital（医院）等，在有冠词修饰（如the hospital）和没有冠词修饰（如hospital）的两种不同情况下，意思往往是不同的。
+
+His mother is in hospital and he has been in the hospital to take care of her. 他妈妈生病住院了，他就一直在医院里照顾她。（这里有两个介词短语in hospital和in the hospital，前者是“生病住院”的意思，而后者表示“在医院里”，但不是因为生病，而是因为其他原因，比如在这里是因为要在医院里照顾他妈妈。）
+
+- **不用冠词**，表示的是人们去这些地方做在这些地方应该做的事或者做的事与这些地方密切相关，比如：“in hospital（在医院）就是因为“生病”，in prison（在监狱）就是因为“犯罪”，**强调在该处所的活动**。
+- **用冠词**，表示人们去这些地方不是要做与该处所密切相关的事，而是由于其他原因，**强调住所**，“比如：in the hospital（在医院）不是因为“生病”，而是因为照顾病人或者是其他原因
+
+常见这样使用的名词
+
+|                                                              | 例子                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 家居生活类名词                                               | 1.at table/at the table 进餐、吃饭/在餐桌旁，在桌旁<br />2.go to bed/go to the bed 上床睡觉/到床边<br />3.in bed/in the bed 在睡觉/卧在床上 |
+| 处所、建筑物或社会事业机构                                   | 1.go to hospital/redecorate the hospital 生病住院/重新装修这个医院<br />2.go to prison/walk around the prison 犯罪入狱/围绕着这个监狱走 |
+| 关于上学（class、school、college、university等）             | 1.go to school/go to the school 上学/去学校<br />2.in school/in the school 在校念书/在学校里 |
+| 关于sea的表达                                                | 1.go to sea(as sailor)/go to the sea 当水手，做海员出海/去海边 |
+| 与处所或社会事业机构无关的名词所构成的短语，在使用冠词与不适用冠词意义上的区分 | 1.in office/in the office 在职：上台执政/在办公室里<br />2.in red/in the red 穿着红色的衣裳/负债，亏损<br />3.in secret/in the secret 秘密地，私下地/，参与秘密，参与阴谋<br />4.in front of/in the front of 在. …（外部）的前面/在... （内部）的前部<br />5. out of question/out of the question 毫无疑问，没有问题/完全不可能<br />6.take place/take the place 发生/代替<br />7.men of age/men of the age 成年人/同龄人<br />8.keep house/keep the house 管理家务/守在家里<br /><br />9.with child/with the child 怀孕/带着孩子 /和这个小孩在一起<br />等 |
+
+**一般来讲，没有冠词修饰的名词，这个名词往往具有一种抽象意义或者总称意义；有冠词修饰的名词，此时的名词都是具体特指某个事物或其他意思。**
+
+### 其他不用冠词的场合
+
+1. 关于职业、身份或头街
+  - 表示某人的职业，一般是用不定冠词 a/an
+    - I am an English teacher.
+    - 如果是独一无二的职业，或者在一个单位是唯一的，通常不加冠词，也可以用 the
+    - They appointed him Head Librarian. 他们任命他为圈书馆长。
+  - 独一无二的职业出现在补足语的位置（包括主语补足语、宾语补足语以及系动词后的表语位置）和同位语位置，会省去 the，其他位置（如宾语或主语）需要加 the
+2. 关于球类、棋类运动
+  - 表示球类、棋类运动项目的名词前面**不加冠词**
+  - play football 踢足球
+  - play chess 下棋
+  - play tennis 打网球
+3. 关于其他限定词与冠词
+  - 下面这些限定词彼此排斥，不能同时出现在名词的前面。  
+    - 冠词：the，an，a  
+    - 物主形容词：my，your，his，her，our，their  
+    - 指示形容词：this，that，these，those  
+    - 名词属格：Tom's，John's  
+    - ~~the my book~~ ❌  
+    - ~~Tom's the book~~ ❌  
+    - ~~my the money~~ ❌  
+    - ~~our the problems~~ ❌  
+  - 换句话说，如果一个名词的前面已经有了物主词、指示词或名词所有格，则不能再有冠词修饰它了
+  - 但要注意的是，所有格本身可以有冠词。
+  - the boss's wife ✅ the boss看做一个整体，在加's所有格
+4. 特殊名词
+  - 在下列这些特殊名词前不加the：
+    - nature 泛指自然界（动植物及无生命的物质的世界），不加冠词。比如：in nature 在大自然中
+    - society 泛指我们在其中生活的这个社会，一般不加冠词。比如：in society 在社会中
+    - space 泛指星球之间的空间，不加冠词。比如：in space 在宇宙太空中
+    - man 泛指整个人类时，不加冠词
+    - history 泛指人类的整个历史时，不用冠词。比如：in history 在历史上
+5. 关于星期
+  - on + 星期名称 包含两个意思
+    - 表示一个规律性的日期，每逢周几，可在星期后加-s
+    - It was Sunday. I never get up early **on Sundays**. I sometimes stay in bed until lunchtime. Last Sunday I got up very late. 那是个星期日。我星期日是从不早起的，有时候还会在床上一直躺到吃午饭的时间。上个星期日，我就起得很晚。
+    - 表示**过去**或**将来**的某个具体日期，以说话时间为参照
+    - She left on Monday. 她是周一离开的。
+    - See you on Friday. 咱们周五见。
+  - on + **the** + 星期名称，表示不是以说话时间为参照，而是以上下文中别的时间为参照，需要加定冠词 the 来修饰星期
+    - She phoned me **on Wednesday** and we are meeting **on Friday**. 她周三给我打了电话，我们约好在周五见面。
+    - The last time I saw her was three weeks ago. She was in England for one week. She phoned me **on the Wednesday** and we met **on the Friday**. 我上次见到她是在三周前，她在英格兰呆了一个星期。她在那个周三给我打了电话，我们在那个周五见了面。
+  - on + **a** + 星期名称 表示不确定的星期表达
+    - She left on Monday. 她是周一离开的。
+    - She left on a Monday. 她是在一个周一离开的。
+6. 关于四季
+  - 指一般的四季而不是具体指某年的某一段时间时，通常不加冠词。比如：
+  - in spring（在春天）
+  - in summer（在夏天）
+  - in autumn（在秋天）
+  - in winter（在冬天）
+7. 关于昼夜的各段时间
+  - 表示昼夜的各段时间的名词主要有：
+    - dawn/daybreak（黎明／破晓）
+    - sunrise（日出）
+    - sunset（日落）
+    - oon（正午）
+    - dusk/twilight（黄昏）
+    - night（夜晚）
+    - midnight（午夜）
+    - 以上这些名词尤其是当它们出现在at，by，after 和 before 之后时，往往**不加冠词**。比如（以at为例）：
+    - at dawn（在黎明时）
+    - at daybreak（在破晓时）
+    - at sunrise（在日出时）
+    - at sunset（在日落时）at noon（在正午时）
+    - at dusk/twilight（在黄昏时）
+    - at night（在夜晚）
+    - at midnight（在午夜）
+  - 如果是用在其他介词之后，或者是在其他场合，这些名词前则往往要加冠词。比如：
+    - watch the dawn（看黎明到来）
+    - The sunrise was splendid. （日出很壮观）
+    - We admired the sunset. （我们欣赏日落）
+    - see nothing in the dusk（在黄昏时什么也没看见）
+    - wake up in the night（在夜里醒来）
+    - all through the night（整整一夜）
+  - 注意：若是表示特定的某一天的某个时间段，往往用不定冠词，并且用介词 on，此时这些名词的前面通常都会有形容词修饰。比如：
+    - on a frosty October night 在10月份一个下着大雾的晚上
+8. 关于进餐
+  - 指一般日常惯例的用餐时，通常不加冠词。比如：
+    - for breakfast/lunch（早餐／午餐吃……）
+    - stay for breakfast（留下来吃早餐）
+    - before lunch（午餐前）
+    - after dinner（晚餐后）
+  - 但是如果指需要特别提出的某一次用餐，则常用the来强调，比如：
+    - Where are we **having dinner** tonight? 今天的晚餐我们在哪里吃？
+    - **The dinner** after his retirement party was quite lavish. 在他那次退休聚会上的晚餐非常豪华丰盛。
+  - 若在三餐名词前有形容词时，则一般加不定冠词，来表示具体的一餐。例如：
+    - We often have **a big** lunch and **a nice** dinner. 我们通常午饭吃得较多，晚饭则吃得较好。”
+9. 关干交通工具的名词
+  - 接在 **by** 之后的交通工具名词，其前面不加冠词。但是这些名词在其他场合要加冠词。若用在介词in或者on后，以及用在动词后，这些名词的
+  前面一般都需要用冠词限定
+    - by bicycle / take the bicycle 骑自行车
+    - by bus / take the bus 乘公交车
+    - by car / be in the car 坐小汽车
+    - by plane / be on the plane 坐飞机
+  - 注意：**步行是 on foot**，不用其他介词
+10. 关于通讯工具的名词
+  - 接在 **by** 之后的通讯工具名词，其前面不加冠词。但是这些名词在其他场合要加冠词。
+  - by radio / a talk on the radio 通过收音机
+  - by telephone / John is on the telephone 通过电话/约翰在接听电话
+11. 平行结构
+  - 如果两个名词一起放在同一平行结构里，即使是单数可数名词，也通常不加冠词
+    - face to face 面对面；当着面
+    - back to back 背对背
+    - arm in arm 手挽着手
+    - hand in hand 手牵手
+    - eye to eye/eyeball to eyeball 面对面地，针锋相对地
+    - toe to toe 脚尖挨脚尖，摩肩接踵
+    - shoulder to shoulder/side by side 并肩地
+    - inch by inch 逐渐地，一步一步地
+    - day after day (＝day by day) 日复一日
+    - dentist after dentist 一个牙医接着一个牙医
+    - from person to person 挨个地
+    - from door to door 挨家挨户
+    - from top to toe 从头到脚，完完全全
+    - from father to son 从父亲到儿子
+  - 在上面带有重复名词的短语，如face to face，toe to toe和eyeball to eyeball等，这样的短语往往具有副词的功能，在句中用作状语，修饰动词。
+    - They talked face to face. 他们面对面地谈话。
+    - They talked man to man. 他们坦率地交谈。
+    - They stood toe to toe. 他们摩肩接踵地站着。
+    - They stood eyeball to eyeball. 他们面对面地站着。
+    -这些名词没有冠词是因为它们基本上失去了名词的主要特性，比如它们没有数的变化。比如不能说：
+    - ~~They talked faces to faces.~~ ❌
+    -它们的前面也不能有修饰语。比如不能说：
+    - ~~They talked old man to young man.~~ ❌
+    因此，我们不妨把这些短语看成是英语的固定习语。
+
+### 总结
+
+<table style="text-align: center;">
   <tr>
     <td></td>
     <td>the</td>
@@ -197,8 +438,8 @@ nonspecific)例句：I don't have a car.</td>
   <tr>
     <td>复数名词</td>
     <td>特指</td>
-    <td>2</td>
-    <td>2</td>
+    <td>/</td>
+    <td>/</td>
     <td>泛指</td>
   </tr>
   <tr>
@@ -217,33 +458,6 @@ nonspecific)例句：I don't have a car.</td>
     <td>泛指</td>
   </tr>
 </table>
-
-<!-- <table border="1">
-  <tr>
-    <td rowspan="2">合并两行</td>
-    <td>第1行，第2列</td>
-  </tr>
-  <tr>
-    <td>第2行，第2列</td>
-  </tr>
-</table>
-
-<table border="1">
-<tr>
-    <td>第2行，第1列</td>
-    <td>第2行，第2列</td>
-  </tr>
-  <tr>
-    <td colspan="2">合并两列</td>
-  </tr>
-  <tr>
-    <td>第2行，第1列</td>
-    <td>第2行，第2列</td>
-  </tr>
-</table> -->
-
-
-
 
 ## 数量限定词与个体限定词
 
