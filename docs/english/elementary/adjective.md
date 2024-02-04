@@ -299,6 +299,181 @@ slowly 是有 slow+ly 才成为副词，不能再改动 y
 
 ### 不具有等级的形容词
 
-<!-- #### 总结 -->
+英语中有一小部分形容词，它们表示绝对的含义，因此没有比较级和最高级形式。常见的这些词包括：
+- absolute（完全的，绝对的）
+- alone（单独的，独一无二的）
+- dead（死的，无感觉的）
+- empty（空的，空洞的）
+- equal（平等的）
+- eternal（永恒的，不变的）
+- final（最终的，决定性的）
+- horizontal（水平的）
+- perfect（完美的）
+- primary（第一位的）
+- pregnant（怀孕的，富有的）
+- round（圆的，球形的）
+- single（单一的）
+- square（正方形的）
+- straight（直的）
+- supreme（最高的，至高的）
+- unique（唯一的，独特的）
+- unanimous（意见一致的，无异议的）
+
+尽管这些词没有`等级差别`，但我们还是可以用下面一些表示`接近的`副词来修饰。比如：**nearly, almost, the most closely和more nearly等等**。比如：
+
+- nearly perfect（接近完美的）
+- almost fatal（几乎是致命的）
+- nearly dead（奄奄一息的）
+
+## 形容词的比较级和最高级的用法
+
+### 形容词比较级的用法
+
+#### 一、than 的比较级句型
+
+对于这一比较级句型的用法，我们首先需要明确以下几点：
+- 在than的前面**必须有形容词或副词的比较级形式**
+- 被比较的两个对象应该是同类事物，即**事物的可比性**  
+
+1. 常见的句型是：**A＋比较级＋than＋B**。A，B一般是两个同类的、彼此独立的人或事物。
+  - his question is less difficult than that question. 这个问题没有那个问题难。  
+2. 也可以不是两个同类事物的比较，而是某一事物自身相比。此时句子的结构为：A＋比较级＋情形1＋than＋情形2。
+  - He did much better in the finals this term than last term. 他这学期的期末考试比上学期的考得好多了。
+  - Since it has been repaired, the machine works more efficiently than it did before. 机器被修好了，因此比以前得效率更高了。
+3. 若被比较的对象不是彼此独立的人或事物，而是具有`一事物包含另一事物`这样的所属关系，此时我们要用 other 或 else 将其与整体区别开来，以免造成逻辑上的矛盾。
+  - Iron is more useful than any **other** metal. 铁比其他任何金属都有用。
+  - She works harder than any **other** student in her class. 她学习比班里其他任何学生都努力。
+  - ~~She works harder than **any student** in her class.~~ ❌ 
+
+#### 二、比较级与 the
+
+比较级的前面一般不需加定冠词 the，**但在有介词短语 of the two 出现在比较级句中的时候，比较级的前面必须加定冠词 the**。
+
+- I think this painting is **the more interesting** of the two. （定冠词不能省去）我觉得在这两幅画中，这一幅更有意思。
+- I think this painting is **more interesting** than that one. 我觉得这幅画比那幅画更有意思（对比上一句）。
+
+#### 三、more and more 句型
+
+用 more and more 双重比较来表示事物持续不断的变化，相当于汉语中的**越来越**。
+
+用法特点：
+1. more and more 不可用在单音节词前。如不说：~~more and more fat~~。
+2. 在 more and more 结构中，不能重复使用形容词或副词。如不能说：~~more beautiful and more beautiful~~。
+
+- The city is becoming more and more beautiful. 这座城市变得越来越美丽了。
+- That female singer is getting fatter and fatter. 那位女歌手变得越来越胖了。
+- As summer approaches, the days seem longer and longer. 夏天快要到了，白天变得越来越长。
+
+#### 四、可以修饰比较级的词
+
+形容词的比较级前可以用以下**表示程度的词或短语**来进行修饰：a bit, a little bit, a little, a lot, a great deal, any, even, far, by far（还可用在最高级的前面）, much, very much, no, rather, still和slightly等等。
+
+- Are you feeling any better? 你感觉好些了吗？
+- Things are no better than before. 情况并没有比以前有所改善。
+- He makes far fewer mistakes in spellings than before. 他犯的拼写错误比以前少多了。
+
+::: warning 注意  
+这些词一般不用来修饰比较级：very，many，quite和fairly等。比如不说：  
+~~My girlfriend is very older than me.~~
+:::
+
+#### 五、否定意义的词＋比较级
+
+在英文中，我们可以用“否定意义的词＋比较级”这种结构来**表达一个最高级的意思**。这样的词有：few，nothing，never和not等
+
+- A: How have you been? A：你怎么样？
+- B: It **couldn't be worse**. B：糟透了。
+- **Few** are **better** qualified for the job than he is.
+
+另外，never与比较级连用，是在对这个比较级的词**进行强调**，意思也相当于这个词的最高级，且要**用在完成时**的句子中。例如：
+
+- I have **never** heard a **better** song. 我从来没有听过这样好的歌。（该句的言外之意是This is the best song that I have ever heard.）
+
+### 形容词最高级的用法
+
+比较级是将彼此独立的人或事物进行比较，最高级则是把一个群体中的一员与该群体整体进行比较。其用法的一般特点是：
+
+- 最高级**用于两者以上**的事物之间进行比较。
+- **一般的结构**是：the＋形容词／副词的最高级＋比较范围。
+
+最高级的句型有：
+
+#### 一、the＋最高级+in＋地方
+
+- It is the most expensive car **in** the world. 这是世界上最贵的汽车。
+- **The best woman in the world** is my mother. **The most beautiful sound in the world** is my mother's voice. 世界上最好的女人是我的母亲，最美的声音是我母亲的声音。
+
+#### 二、the＋序数词＋最高级+in＋地方
+
+- The Yangtze River is the longest river in China, but it is **the third longest** river in the world. 长江是中国最长的河流，是世界第三长的河流。
+- The Huanghe River is **the second longest** river in China. 黄河是中国第二长的河流。
+
+#### 三、the＋形容词/ 副词的最高级＋of＋所属范围
+
+- Certain zoologists regard crows **the most intelligent of** birds. 有些动物学家认为，乌鸦是所有鸟类当中最聪明的（一种鸟）。
+> 为什么不直接说 the most intelligent bird，其实，这一句可以看作是在最高级形容词的后面省去了代词one，也即指bird。所以原来的句子可改为：
+> Certain zoologists regard crows the most intelligent **one (bird)** of birds. 但在实际应用中常常是将这个代词one省去。
+- **The youngest of** the family is most successful. 全家年龄最小的那位最有成就。= **The youngest member of** the family is most successful.
+- Gold is **the least useful of** all metals. 在所有的金属中，黄金的用途最小。
+- The Atlantic is not **the largest of** the world's oceans. 大西洋不是世界上最大的海洋。
+
+另外，我们还可以把**of＋范围**这一短语放置在**句首**。例如：
+- **Of all metals**, gold is the least useful. 在所有的金属中，黄金的用途最小。
+- **Of all forms of energy**, electricity is most widely used. 在所有的能源中，电的用途是最广泛的。
+
+#### 四、最高级前面的定冠词the加与不加
+
+具体规则如下：
+1. **形容词的最高级修饰名词用在名词之前，一般要加the**。例如：
+  - This is **the most interesting** book of all. 这是所有的书里最有趣的一本。  
+2. **most有时用在形容词前，并非表示最高级，而是表示“非常，很”之意，相当于very，very much。此时，most的前面一般不用定冠词the**。例如：
+  - The story is **most interesting**. 这个故事非常有趣。
+  - It is a **most difficult** problem. 这是个很棘手的问题。
+
+## Interesting or Interested?
+
+### -ing形容词与-ed形容词的特点
+
+- **-ing形容词**主要是用来描述引起人某种感觉的**事物**，因此，句子的主语通常是事物或作定语修饰事物（用于修饰人的情况较少）。
+- **-ed形容词**主要是用来描述人的感觉，表示**人对事物产生某种感觉**，句子的主语通常是人或有情绪的动物，或用来修饰人或有情绪的动物（一般不指事物）。
+
+- the **exciting** news 激动人心的消息
+- the **excited** man 显得很激动的人
+- a **frightened** bird/boy 受到惊吓的鸟 / 孩子
+- a **frightening** story 让人毛骨悚然的故事
+
+再比如谈到工作时，如果job做主语，则要用-ing形容词来描述工作的性质特征，以及对应的-ed性质的解释
+
+- My job is **boring** => I'm **bored** with my job.
+- My job is **interesting** => I'm **interested** in my job.
+- My job is **tiring** => I'm always **tired** when I finish work .
+- My job is **satisfying** => I'm **satisfied** with my job.
+- My job is **depressing** => I'm **depressed** by my job.
+
+**当然-ing修饰物、-ed修饰人的规律是可以打破的，也可以用-ing修饰人和-ed修饰物**
+
+### -ing形容词可以修饰“人”
+
+一般来说，用-ing形容词修饰人，是**说明这个人能够引起的某种情绪**。
+
+- a boring man 一个烦人的人（意思是`一个让别人感到乏味的男子`，比如他缺乏幽默感、为人很古板等。）
+- a bored man 一个烦闷的人（意思是`一个对生活感到很乏味的男子`，比如他的生活不够精彩，太单调、平淡。）
+- He is **interesting** to listen to. 听他讲话很有意思。（~~他对听别人讲话很感兴趣~~）
+
+### -ed形容词可以修饰“物”
+
+-ed形容词修饰物时，实际描述的是当前语句的当前说话者说这句话的心境，感受/句子中的人当时所处的心境，感受
+
+- But my diary is good on nature: the first time I saw a fox in the garden in 1986, the first time I saw a fox in the street, the first time I saw fox cubs in the garden, all in **excited detail**. 可是我的日记里记载的都是一些美好的事情：比如我在1986年第一次在一个园子里看见狐狸；我第一次在街道上看见狐狸；我第一次在园子里看见狐狸的幼崽等等，都是这些我当时很兴奋地记录下来的生活细节。  
+> 表面上看，excited 用在了detail前面，因而它修饰了 detail。但在真正的意义上，excited是描写作者在写作当时的心境（The writer's describing her emotional state while writing.），所以 excited detail 相当于汉语说“兴奋地描述了细节”，而不是“兴奋的细节”。这是一种英语表达的“经济原则”（This is economy in writing.）。
+
+- They set out with an innocent, **excited anticipation** of the journey to come, but the five men quickly encounter reality in the form of blizzards, lightning, thirst, starvation and snakes. 他们启程了，当时满是无知无畏地、激动地期待着未来的旅程。可是这五个人很快就遭遇了严峻的现实：沿途遇上了暴风雪、闪电、干渴、饥饿还有毒蛇。
+> 这里的 excited 虽然是修饰 anticipation 的，但真正是表示 they 的心态的。
+
+- I spend a lot of time on planes listening for that dreaded "Is there a doctor on board" announcement. 在飞机上，我总是能够听到“飞机上有医生吗？“这样可怕的广播询问。
+> 这里的dreaded强调的是“我”的感受，而不是强调announcement，所以用被动。另外，这里的dreaded与announcement被句子Is there a doctor on board隔开了，本来应该说成：...that dreaded announcement—“Is there a doctor on board?”作者这里是把“Is there a doctor on board”提前到announcement的前面去了。
+
+- The boy said to his mother in an injured voice that she shouldn't have blamed him. 这个男孩用一种满是委屈受伤的声音对他妈妈说，她不应该费备他。
+> 这里的injured是讲这个男孩的，与the boy构成被动关系，所以用过去分词injured。当然如果一个动词与所讲到的人是主动关系，则会用现在分词。
 
 <SideTitle :page="$page" />
