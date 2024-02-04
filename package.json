@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.7"
+  },
+  "volta": {
+    "node": "16.20.2"
   }
 }
