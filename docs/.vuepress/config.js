@@ -218,6 +218,7 @@ function getEnglish() {
         '/english/elementary/determiner',
         '/english/elementary/adjective',
         '/english/elementary/verb-category-one',
+        '/english/elementary/verb-category-two',
       ],
     },
   ]
