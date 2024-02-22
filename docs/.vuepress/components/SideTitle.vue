@@ -61,9 +61,12 @@ export default {
   position: fixed;
   top: 69px;
   right: 20px;
+  bottom: 14px
   padding: 16px;
   width: 245px;
+  max-height: calc(100vh - 4rem) ;
   background-color: #fff;
+  overflow-y: auto;
   .title {
     text-align: center;
     font-weight: bold;

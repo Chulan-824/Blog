@@ -219,6 +219,7 @@ function getEnglish() {
         '/english/elementary/adjective',
         '/english/elementary/verb-category-one',
         '/english/elementary/verb-category-two',
+        '/english/elementary/english-tenses',
       ],
     },
   ]
