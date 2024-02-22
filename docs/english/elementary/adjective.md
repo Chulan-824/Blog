@@ -238,7 +238,8 @@ slowly 是有 slow+ly 才成为副词，不能再改动 y
 
 - 常见的这样的双音节词有：common, cruel, friendly, funny, handsome, mature, noisy, pleasant, polite, quiet, stupid 和 tired
 - 以-ow结尾的词有：hollow, narrow和shallow
-- 以-er结尾的词有：clever 和 tender；以-le结尾的词有：feeble, gentle 和 noble 等等
+- 以-er结尾的词有：clever 和 tender
+- 以-le结尾的词有：feeble, gentle 和 noble 等等
 
 > 在英文中，几乎所有的双音节形容词（除了以-y结尾的词外），都可以在其前面加more和most来分别构成比较级和最高级。
 
