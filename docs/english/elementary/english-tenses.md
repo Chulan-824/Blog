@@ -397,4 +397,204 @@ B: Well, Mike, I <u>am taking</u> my girlfriend to Qingdao. She is a beach perso
   - He **was on the point of killing** himself when she stepped into his room. 她走进房间时，看见他正要自杀。
   - The child **was on the verge of laughing**, but he held back. 这孩子差一点笑出声来，但还是忍住了。
 
+## 现在进行时
+
+现在进行时不一定正在进行
+
+### 用法一：说话时刻正在进行的动作
+
+现在进行时最典型的用法是**表示在说话的时刻正在进行的动作**，比如：
+
+- Frank: Hi, Jenny. What are you doing? 嗨,珍妮。你在干什么?
+- Jenny: Oh, hi, Frank. I'm doing my laundry. You? 哦，嗨，弗兰克。我正在洗衣服。你呢?
+
+### 用法二：在目前一段时期内持续的一种暂时的情况
+
+现在进行时还常常用来表示**现阶段正在持续的活动**。这时进行时态表示的是一个一般性的活动，在说话时刻这个动作并不一定正在发生（通常都不在发生），而是**在目前一段时期内持续的一种暂时的情况**。
+
+- A: Have you found a position yet? 找到工作了吗？
+- B: I'm still checking the papers. 我还在报纸上看招聘广告呢。
+- I am not teaching English this month. I am working on a special project. 这个月我没有在教英语。我在做一个特别的项目。
+
+### 用法三：用于表示“改变”的动词，强调“逐渐变化”的过程
+
+常见的表示“改变”的动词有：change, come, get, become, grow 和 deteriorate（恶化）等。
+
+- Frank: Well, this neighborhood is really booming. It's not really a suburb any more. 这附近真是越来越繁荣，已不再是郊区了。
+- Jenny: Yeah, it is getting crowded. 是呀，也变得越来越拥挤了。
+- It's getting dark. 天渐渐黑了下来。
+- Mom is getting old. 妈妈越来越老了。
+- His health is deteriorating. 他的健康状况日益恶化。
+- My dream is coming true. 我的梦想正一点点地成为现实。
+- I think Jenny's getting cold feet! 我认为珍妮的胆子变得越来越小了！
+
+### 用法四：用于强烈的感情色彩的表达
+
+在日常的**口语交际**中，我们要表达自己的各种强烈的感情，比如生气、激动和兴奋等等，我们往往会在说话的过程中频繁地使用现在进行时。此时**说话人用进行时态，并非是要强调某个正在进行的动作，而是要表达自己强烈的情感**。
+
+- What <u>are we waiting</u> for then? Let's get started. 那我们还等什么？赶快开始吧。(不耐烦)
+- I<u>'m not having</u> this conversation with you. 我不跟你说了。(生气)
+- You<u>'re not asking</u> me to marry you, are you? 你该不是在向我求婚吧？(怀疑和惊讶)
+- You<u>'re not backing</u> out of our date, are you? 你该不是不想和我约会吧？(怀疑和惊讶)
+
+### 用法五：表示将来确定的安排
+
+现在进行时在**口语**中还经常用来表示将来的动作，此时现在进行时是表示在说话之前就确定的、计划好的将来的安排。
+
+- A: What <u>are you doing</u> on Saturday night? 周六晚上你有何安排？
+- B: I<u>'m doing</u> some shopping with Jane. 我要和简去购物。
+- Jenny: Yeah, it is getting crowded. Where <u>are</u> you <u>looking</u> for an apartment? 是呀，那变得越来越拥挤。你准备在哪儿找公寓呢？
+
+> 注意与 be going to 的区别（和现在进行时都可表将来）
+> - 现在进行时强调事先已经做好的安排，是比较确定要发生的。
+> - be going to 着重表现说话者的计划和意图，并不是确定的安排。
+> - I'<u>m staying</u> at Beijing. 我会待在北京。
+> - I'<u>m going to stay</u> at Beijing. 我打算待在北京。
+> 其次对于静态的动词和无生命的主语，不可能使用现在进行时来表示将来。但可以用于be going to，这时表示预测。
+> - ~~The red car **is belonging to** me tomorrow.~~ ❌ 
+> - The red car **is going to belong to** me tomorrow. 明天这辆红色的汽车就将属于我了。
+
+### 用法六：与always等连用，表示多次重复，且含有感情色彩
+
+现在进行时的感情色彩的表达，还有另外一种用法，就是常与 always, forever, continually 和 constantly 等连用，表示多次重复的行为。这种反复的行为可以是积极的、让人喜欢的事情。比如：
+
+- Scott is very generous. He'<u>s always giving</u> his friends gifts and inviting them out for meals. 斯科特为人十分慷慨大方，他总是会送朋友礼物，并请他们吃饭。
+- Although Steve is a teacher, in a sense he is a student as well. He <u>is always learning</u> things from his students. 尽管史带夫是老师，但在某种意义上，他也可以说是个学生，因为他总是愿意向他的学生学习。
+- He'<u>s always pulling</u> my leg. He likes joking me. 他总是喜欢开我的玩笑。
+- He'<u>s continually asking</u> me for money. 他总是向我要钱。
+
+### 总结
+
+1. 现在此刻正在进行的活动。
+2. 现阶段在持续的活动。
+3. 用于“变化”类的动词，表示现阶段逐渐变化的过程。这同用法二相近。
+4. 强烈的感情色彩的表达。
+5. 表示将来确定的安排。
+6. 与always等连用，表示多次重复，也包含感情色彩。
+
+## 过去进行时
+
+过去进行时回顾过去讲故事
+
+### 常见用法：用来设置故事的背景
+
+在讲故事时，我们往往会用到过去进行时态was/were doing 来设置故事发生的过去背景，这是因为进行时态往往表示一个在持续的活动场景，所以用它来铺垫故事的背景，往往会给读者一种身临其境的感觉。比如  
+
+James Bond **was driving** through town. It **was raining**. The wind was blowing hard. Nobody **was walking** in the streets. Suddenly, Bond saw the killer in a telephone box. 
+
+詹姆斯•邦德当时正开着车，行驶在城中的街道上。窗外刮着风，下着雨，此时街上一个人也没有。突然，邦德看到那名杀手在电话亭里......
+
+上面这种通过描写一系列过去进行的动作来渲染故事背景的过去进行时用法，多见于文学作品中。
+
+在日常生活的叙事中，我们更多的是把“过去进行时”和“一般过去时”配合使用。此时，过去进行时通常表示一个历时较长的体现“背景”的动作或状态；而一般过去时则表示在此“背景”下发生的一个短暂的动作或状态。简言之，**长动作用过去进行时，短动作用一般过去时**，以此表示在过去进行时的动作的持续期间，发生了另一个短暂动作。这两个动作之间用when或while连接。
+
+I **was walking** along the street late last night when suddenly **I heard** footsteps behind me. Somebody was following me. I was frightened and I started to run.
+
+昨晚很晚我一个人走在大街上，突然我听见身后有脚步声，有人正跟着我。我当时書怕极了，就开始跑了起来（这句中的 walk 表示“一直在走”，显然是长动作，所以要用过去进行时；hear 表示“听到了”，显然是短动作）
+
+#### 动作长短的相对性及其与时态的关系
+
+值得注意的是，这里所说的动作的长与短是相对的。比如：
+
+- I **was watching** TV when the telephone **rang**. 我当时正在看电视，突然电话铃响了。
+- I **was walking** past the car when it **exploded**. 汽车爆炸时我正好刚走过。
+
+总之，动作的长短是指具体句子里的两个动作的相对长短。相对短的动作用一般过去时，相对长的动作用过去进行时。若时态用错，句意可能就要发生改变。
+
+#### when和while的区别
+
+- when 的后面接短动作，用一般过去时，或者接长动作，用过去进行时。
+- while 的后面只能接长动作，用过去进行时。
+
+- I was walking past the car <u>when</u> it <u>exploded</u>.
+- The car exploded <u>when</u> I <u>was walking</u> past it.
+- The car exploded <u>while</u> I <u>was walking</u> past it.
+
+### 少见用法：两个过去同时在持续的动作
+
+若句中的两个动作都是较长的动作，则两个动作都用过去进行时，表示两个过去同时在持续的动作，此时分不出哪个动作先发生。
+
+- While I **was studying** in my dorm, my roommates **were talking** loudly with their friends. 我在宿舍里学习的时候，我的室友在大声地和他的朋友说话。
+- While I **was studying** last night, my wife **was watching** TV. 我昨晚学习的时候，我的妻子在看电视。
+
+### 典型用法：描述一个过去的特定时刻正在发生的事情
+
+- I **was discussing** my thesis with my director at this time last night. 我昨晚的这个时候正在和我的导师讨论我的论文。
+- A: What were you doing at 10 o'clock last night? 昨晚10点钟时你在做什么？
+- B: I was having dinner with my friends. 我在图书馆看书。
+
+### 口语用法：表示委婉的请求或提建议
+
+在口语表达中，我们还常常用过去进行时来表示委婉的请求或提建议，这时并不表示过去时间的动作。这尤其适用于表示态度的动词，如**wonder，hope 和 think 等**，这些动词用过去进行时（was wondering）或现在进行时（is wondering），均表示现在的一种愿望或态度，给人一种探询式的、犹豫不决的印象，因而显得很礼貌。比如：
+
+- I **was wondering** if you'd like to lend me your car.
+- I **was wondering** if you could lend me your car.
+- I **was hoping** that you'd like to lend me your car.
+- I **was thinking** that you'd like to lend me your car. 我希望你能把车借给我。
+
+## 将来进行时
+
+### 典型用法：将来某一特定时刻正在持续的事
+
+- Don't telephone me after eight tomorrow—I'<u>ll be having</u> a meeting. 明天8点钟以后不要给我打电话，因为那时我正在开会。
+- Wait until seven o'clock so that they <u>won't</u> still <u>be eating</u>. 等到7点钟再过去吧，这样他们那时就不会还在吃饭了。
+- He can't play golf next Sunday because he <u>will be working</u>. 下周日他无法打高尔夫，因为那天他会正在工作。
+- Do you think you <u>will</u> still <u>be working</u> here in two years' time? 你认为两年之后你还会在这里工作吗？
+- By this time next year, I <u>will be writing</u> my thesis. 明年这个时候，我就会正在忙着写论文哩
+
+### 口语用法：将来计划好的事
+
+Professor Smith will be giving a lecture on American literature tomorrow evening. 明晚史密斯教授将会举行有关美国文学的讲座。
+
+上面现在进行时态 be doing 也可以表示计划好的事。比如上面这个句子也可以说成：Professor Smith <u>is giving</u> a lecture on American literature tomorrow evening.
+
+区别：
+1. **现在进行时只表示最近的将来；而将来进行时既可以表示最近的将来，也可表示较远的将来**。比如：
+  - I <u>am meeting</u> him tomorrow. 我明天要见他。
+  - I <u>will be meeting</u> him tomorrow/next year. 我明天／明年要见他。
+2. **现在进行时表示最近将来的动作时，必须有确定的表示将来的时间状语；而将来进行时则没有这种限制**。请比较：
+  - He'<u>s working</u> in this room next <u>Monday</u>. 他下周一将在这个房间里工作。
+  - He'<u>ll be working</u> in this room. 他将在这个房间里工作。
+
+### 少见用法：表示背景动作一一提供另外一个短动作发生的事件背景
+
+同过去进行时的用法类似，将来进行时可以表示一个背景动作，来描述在这个背景动作下，将会发生的另外一个短暂动作。
+
+- They probably **will be watching** TV when we get there. 等我们一会儿到那时，他们可能正在看电视。
+- **Will** your friends **be waiting** for you at the airport when you arrive? 你一会到达机场时，你的朋友们会在那接你吗？
+
+### 难点用法1：用在疑问句中，表示客气地询问
+
+比如商店购买物品，营业员会说：How will you be paying for this? 而不是 How will you pay for this?
+
+这是将来进行时态的一种很有用的用法，即我们**用它来“礼貌地询问”，显得比一般将来时 will do 更委婉客气**。
+
+- will be doing 常表示很客观地询问事实，并不想干涉对方的决定
+- will do 往往带有各种感情色彩，如请求、命令、指示、质问甚或威胁等等
+
+**如果我们是要客观地询问事实，宜用 will be doing 来提问；而若是其他语气，比如请求或命令等，我们则要用 will do 来提问**。我们再看下面这对句子：
+
+- **Will** you **be staying** in this evening? 今晚你不出去吧？
+- **Will** you **stay** in this evening? 今晚你不要再出门了行不行？！
+
+### 难点用法2：用来表示客观的将来，以避免与表示“意愿”的will do混淆
+
+- will be doing表示客观的将来（来不了 won't be coming）
+- will do表示主观意愿。（不愿来 won't come）
+
+A: It's already 10 o'clock. I guess Bob and Amy **won't be coming** to the party. 现在已经10点了，我猜鲍勒和埃米不会來参加聚会了。
+B: They called at nine to say that they'd been held up. 他们9点钟时打过电话，说有事耽误了。
+
+说话人用won't be coming是想强调鲍勃和艾米可能是因为其他事情耽误了而“来不了”这一客观事实，而不是主观意愿上的“不愿来”。下文紧接着就说明了他们来不了的原因是they had been held up（他们有事耽误了）。如果说：Bob and Amy won't come to the party. 因为won't do的意思往往相当于refuse to do，表示“拒绝做，不愿意做”。所以，对于这句话人们一般会理解为“鲍勃和艾米不愿意来参加聚会”。而在原文中，说话人其实是在强调客观将来的时间——“来不了”，而不是“不愿来”。所以，我们看到，这里一个won't be coming，一个won't come，两者的意思大相径庭。
+
+### 总结
+
+将来进行时态 will be doing 可能有下列五种意义和用法：
+1. 想象自己或其他人在将来某一特定的时刻正在做某事。
+2. 表示计划好的事。
+3. 表示背景动作。提供另外一个短动作发生的事件背景。
+4. 用在疑问句中，表示客气的询问。这一用法在口语中尤为常见。
+5. 用will be doing来表示客观的将来，以避免与表示“意愿”的will do混淆。
+
+
 <SideTitle :page="$page" />
