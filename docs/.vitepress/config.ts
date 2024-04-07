@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Blog',
   description: 'A Blog Site',
-  base: '/blog/',
+  base: '/Blog/',
   head: [['link', { rel: 'icon', type: 'image/webp', href: '/my-logo.webp' }]],
   themeConfig: {
     logo: { src: '/my-logo.webp' },
