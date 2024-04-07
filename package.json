@@ -1,22 +1,22 @@
 {
-  "name": "chulan-blog-vuepress",
+  "name": "Blog-Vite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
-  "dependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.9.7"
+    "vitepress": "^1.0.2"
   },
   "volta": {
-    "node": "16.20.2"
+    "node": "20.12.1"
   }
 }
