@@ -50,7 +50,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://chulan-824.github.io/Chulan-Blog/
+      url: https://chulan-824.github.io/blog/
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
