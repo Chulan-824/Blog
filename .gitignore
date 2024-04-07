@@ -1,4 +1,2 @@
 node_modules
-
-# docs/English
-/docs/.vuepress/dist/**
+docs/.vitepress/cache

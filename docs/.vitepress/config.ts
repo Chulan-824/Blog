@@ -4,9 +4,9 @@ export default defineConfig({
   title: 'Blog',
   description: 'A Blog Site',
   base: '/Blog/',
-  head: [['link', { rel: 'icon', type: 'image/webp', href: '/my-logo.webp' }]],
+  head: [['link', { rel: 'icon', href: '/Blog/my-logo.png' }]],
   themeConfig: {
-    logo: { src: '/my-logo.webp' },
+    logo: '/my-logo.png',
     nav: nav(),
     sidebar: {
       '/javascript/': { base: '/javascript/', items: sidebarJavaScript() },
