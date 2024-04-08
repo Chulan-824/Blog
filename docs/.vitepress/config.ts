@@ -21,8 +21,16 @@ export default defineConfig({
       level: 'deep',
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Chulan-824' }],
+    // search: {
+    //   provider: 'local',
+    // },
     search: {
-      provider: 'local',
+      provider: 'algolia',
+      options: {
+        appId: '5T1AAMLB5D',
+        apiKey: 'e2a623206ff6b0671aaaf5e514c3b286',
+        indexName: 'dev_blog',
+      },
     },
   },
   markdown: {
