@@ -4,12 +4,17 @@ export default defineConfig({
   title: 'Blog',
   description: 'A Blog Site',
   base: '/Blog/',
+  lang: 'zh-CN',
+  locales: {
+    root: { label: '简体中文', lang: 'zh-CN' },
+  },
   head: [['link', { rel: 'icon', href: '/Blog/my-logo.png' }]],
   themeConfig: {
     logo: '/my-logo.png',
     nav: nav(),
     sidebar: {
       '/javascript/': { base: '/javascript/', items: sidebarJavaScript() },
+      '/java/': { base: '/java/', items: sidebarJava() },
       '/english/': { base: '/english/', items: sidebarEnglish() },
     },
     docFooter: {
@@ -44,6 +49,7 @@ function nav() {
   return [
     { text: 'Home', link: '/' },
     { text: 'JavaScript', link: '/javascript/module' },
+    { text: 'Java', link: '/java/spring-boot/ioc-di' },
     { text: 'English Grammar', link: '/english/elementary/noun' },
   ]
 }
@@ -159,6 +165,16 @@ function sidebarJavaScript() {
     { text: 'Vue设计与实现笔记', link: 'vue/concept/' },
     { text: '计算机网络基础概念', link: 'http/base/' },
     { text: 'js继承', link: 'js/base/inherit' },
+  ]
+}
+
+function sidebarJava() {
+  return [
+    {
+      text: 'SpringBoot',
+      collapsed: false,
+      items: [{ text: 'IOC/DI', link: 'spring-boot/ioc-di' }],
+    },
   ]
 }
 

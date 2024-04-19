@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: 前端
-      link: /markdown-examples
+      link: /javascript/module
     - theme: alt
       text: Java
-      link: /api-examples
+      link: /java/spring-boot/ioc-di
     - theme: alt
       text: English
-      link: /api-examples
+      link: /english/elementary/noun
 
 features:
   - title: 夯实基础
