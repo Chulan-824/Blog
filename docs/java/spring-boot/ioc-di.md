@@ -1,6 +1,6 @@
 # IOC / DI
 
-## 什么是 IOC / DI
+<!-- ## 什么是 IOC / DI
 https://juejin.cn/post/7297002272986120230#heading-13
 
 ### IOC 
@@ -66,4 +66,4 @@ from 'umi'
 2.新增两个部署节点，chapter内部新增切换按钮
 
 
-
+ -->

@@ -4,7 +4,7 @@
 
 Multi-repo 和 Mono-repo 该如何选择？
 
-![](./images/init-1.png)
+<Image src='./images/init-1.png' />
 
 - Multi-repo 每个库有自己独立的仓库，逻辑清晰，相对应的，协同管理会更繁琐。
 

@@ -173,7 +173,10 @@ function sidebarJava() {
     {
       text: 'SpringBoot',
       collapsed: false,
-      items: [{ text: 'IOC/DI', link: 'spring-boot/ioc-di' }],
+      items: [
+        { text: 'Maven', link: 'maven' },
+        { text: 'IOC/DI', link: 'spring-boot/ioc-di' },
+      ],
     },
   ]
 }

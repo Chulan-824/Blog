@@ -18,5 +18,8 @@
   },
   "volta": {
     "node": "20.12.1"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.1.2"
   }
 }
