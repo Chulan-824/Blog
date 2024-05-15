@@ -171,10 +171,15 @@ function sidebarJavaScript() {
 function sidebarJava() {
   return [
     {
+      text: 'Maven',
+      collapsed: false,
+      link: 'maven',
+    },
+    {
       text: 'SpringBoot',
       collapsed: false,
       items: [
-        { text: 'Maven', link: 'maven' },
+        { text: '注解', link: 'spring-boot/annotation' },
         { text: 'IOC/DI', link: 'spring-boot/ioc-di' },
       ],
     },
