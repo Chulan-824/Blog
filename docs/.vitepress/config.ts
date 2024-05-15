@@ -173,7 +173,7 @@ function sidebarJava() {
     {
       text: 'Maven',
       collapsed: false,
-      link: 'maven',
+      link: 'maven/',
     },
     {
       text: 'SpringBoot',
