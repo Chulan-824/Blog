@@ -1,3 +1,7 @@
+<script setup>
+import ImgConcurrentUpdate1 from './images/concurrentUpdate-1.png'
+import ImgConcurrentUpdate2 from './images/concurrentUpdate-2.png'
+</script>
 # 并发更新原理
 
 我们当前的实现是如何驱动的？
@@ -12,7 +16,7 @@
 
 ## 同步示例
 
-<img class="zoom-custom-imgs" src="./images/concurrentUpdate-1.png" >
+<Image :src="ImgConcurrentUpdate1" />
 
 示例在两种情况下会造成阻塞：
 
@@ -39,7 +43,7 @@
 - LowPriority（低优先级）
 - IdlePriority（空闲时优先级）
 
-<img class="zoom-custom-imgs" src="./images/concurrentUpdate-2.png" >
+<Image :src="ImgConcurrentUpdate2" />
 
 需要考虑的情况：
 
@@ -50,4 +54,4 @@
 3. 工作过程中产生更高/低优先级的 work
   - 把握一个原则：我们每次选出的都是优先级最高的 work
 
-<SideTitle :page="$page" />
+

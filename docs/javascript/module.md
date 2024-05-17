@@ -309,4 +309,3 @@ console.log(data) // data
 
 [Javascript 模块化指北](https://juejin.cn/post/6844903654277791757#heading-5)
 
-<SideTitle :page="$page" />

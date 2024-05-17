@@ -1,3 +1,9 @@
+<script setup>
+import ImgMaven1 from './images/maven-1.png'
+import ImgMaven2 from './images/maven-2.png'
+import ImgMaven3 from './images/maven-3.png'
+</script>
+
 # Maven
 
 ## Maven 简介
@@ -134,7 +140,7 @@ Maven 坐标体系
 
 选择后缀名为tar.gz的版本
 
-<Image src='./images/maven-1.png' />
+<Image :src="ImgMaven1" />
 
 2. 解压至自己想要存放目录位置
 
@@ -162,9 +168,9 @@ source ~/.bash_profile
 ```bash
 mvn -v
 ```
-<Image src='./images/maven-2.png' />
+<Image :src="ImgMaven2" />
 
 ## IDE 配置 Maven
 
 1. 设置 => 构建、执行、部署 => 构建工具 => Maven
-<Image src='./images/maven-3.png' />
+<Image :src="ImgMaven3" />

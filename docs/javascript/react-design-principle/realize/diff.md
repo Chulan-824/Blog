@@ -1,3 +1,7 @@
+<script setup>
+import ImgDiff1 from './images/diff-1.png'
+</script>
+
 # diff算法
 
 在之前只实现了单节点的 diff 算法，这里需要实现多节点的 diff 算法
@@ -146,7 +150,6 @@ function App() {
 
 ## 总结
 
-<img class="zoom-custom-imgs" src="./images/diff-1.png" >
+<Image :src="ImgDiff1" />
 
 
-<SideTitle :page="$page" />

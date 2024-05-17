@@ -1,3 +1,7 @@
+<script setup>
+import ImgHooks1 from './images/hooks-1.png'
+import ImgHooks2 from './images/hooks-2.png'
+</script>
 # 实现Hooks架构
 
 ## 架构难点
@@ -20,7 +24,7 @@ function App() {
 
 不过要知道程序处于那种上下文中只有 reconciler 包中才能知道，但是我们使用 hooks 函数的时候，都是从 react 包中导入，所以这里还需要再内部实现一个 reconciler - react 包的一个数据共享层，大致如下图
 
-<img class="zoom-custom-imgs" src="./images/hooks-1.png" >
+<Image :src="ImgHooks1" />
 
 ::: tip
 实现「内部数据共享层」时的注意事项
@@ -66,7 +70,7 @@ fiberNode 中可用的字段：
 - memoizedState
 - updateQueue
 
-<img class="zoom-custom-imgs" src="./images/hooks-2.png" >
+<Image :src="ImgHooks2" />
 
 对于 FC 对应的 fiberNode，存在两层数据：
 
@@ -80,4 +84,4 @@ fiberNode 中可用的字段：
 2. 实现 dispatch 方法，并接入现有更新流程内
 
 
-<SideTitle :page="$page" />
+

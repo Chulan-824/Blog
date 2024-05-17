@@ -1,3 +1,7 @@
+<script setup>
+import ImgFragment1 from './images/fragment-1.png'
+import ImgFragment2 from './images/fragment-2.png'
+</script>
 # Fragment
 
 为了提高组件结构灵活性，需要实现 Fragment，具体来说，需要区分几种情况：
@@ -110,7 +114,7 @@ children 为数组类型，则进入 reconcileChildrenArray 方法，数组中�
 
 ## child reconcile 图解
 
-<img class="zoom-custom-imgs" src="./images/fragment-1.png" >
+<Image :src="ImgFragment1" />
 
 ::: tip 注
 workTag 里 Fragment 是 Fiber 节点的 tag 属性（FiberNode.tag）
@@ -142,7 +146,7 @@ REACT_FRAGMENT_TYPE 是 ReactElement的 type 属性（element.type）
 </div>
 ```
 
-<img class="zoom-custom-imgs" src="./images/fragment-2.png" >
+<Image :src="ImgFragment2" />
 
 ## 对React的影响
 
@@ -174,4 +178,4 @@ const keyToUse = element.key !== null ? element.key : index;
 ```
 [详见fix: fragment array没有key](https://github.com/BetaSu/big-react/commit/ac2759e69d8a7049ef1965d460e78e50883b0d11)
 
-<SideTitle :page="$page" />
+

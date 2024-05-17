@@ -30,4 +30,3 @@ Array.prototype.pop = function() {
 
 
 
-<SideTitle :page="$page" />

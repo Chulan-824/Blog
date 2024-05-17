@@ -229,4 +229,3 @@ VDOM 的主要优点：
 - React 是极致的运行时框架
 - Vue3 同时拥有两者的特性（AOT 和 VDOM），比较均衡
 
-<SideTitle :page="$page" />

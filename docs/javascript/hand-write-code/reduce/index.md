@@ -57,4 +57,3 @@ Array.prototype.reduce  = function(callbackfn, initialValue) {
 
 
 
-<SideTitle :page="$page" />

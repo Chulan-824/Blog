@@ -1,3 +1,10 @@
+<script setup>
+import ImgLane1 from './images/lane-1.png'
+import ImgLane2 from './images/lane-2.png'
+import ImgLane3 from './images/lane-3.png'
+import ImgLane4 from './images/lane-4.png'
+import ImgLane5 from './images/lane-5.png'
+</script>
 # 实现同步调度流程
 
 更新到底是同步还是异步？
@@ -42,7 +49,7 @@ Batched Updates（批处理）：多次触发更新，只进行一次更新流�
 
 的基础上增加`schedule`阶段（调度阶段）
 
-<img class="zoom-custom-imgs" src="./images/lane-1.png" >
+<Image :src="ImgLane1" />
 
 ## 对 update 的调整
 
@@ -63,7 +70,7 @@ const onClick = () => {
 - 需要能够合并一个宏任务/微任务中触发的所有更新
 - 需要一套算法，用于决定哪个优先级优先进入 render 阶段
 
-<img class="zoom-custom-imgs" src="./images/lane-2.png" >
+<Image :src="ImgLane2" />
 
 ## 实现 Lane 模型
 
@@ -89,7 +96,7 @@ Lane 模型包括：
 
 大致流程图如下：
 
-<img class="zoom-custom-imgs" src="./images/lane-3.png" >
+<Image :src="ImgLane3" />
 
 ## 实现调度阶段
 
@@ -98,8 +105,7 @@ Lane 模型包括：
 
 大致流程图： 
 
-<img class="zoom-custom-imgs" src="./images/lane-4.png" >
-
+<Image :src="ImgLane4" />
 
 ## render阶段的改造
 
@@ -114,7 +120,6 @@ processUpdateQueue 方法消费 update 时需要考虑：
 
 ## 总结
 
-<img class="zoom-custom-imgs" src="./images/lane-5.png" >
+<Image :src="ImgLane5" />
 
 
-<SideTitle :page="$page" />

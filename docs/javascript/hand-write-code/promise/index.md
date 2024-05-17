@@ -1102,5 +1102,5 @@ MyPromise.race = function (promiseArray) {
 
 
 
-<SideTitle :page="$page" />
+
 

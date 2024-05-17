@@ -1,3 +1,7 @@
+<script setup>
+import ImgJsx1 from './images/jsx-1.png'
+import ImgJsx2 from './images/jsx-2.png'
+</script>
 # 实现 JSX
 
 ## 前言
@@ -19,8 +23,8 @@ JSX 属于 react 包
 
 [JSX转换 playground](https://babeljs.io/repl#?browsers=defaults&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=DwEwlgbgfAjATAZmAenNIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react%2Cstage-2&prettier=false&targets=&version=7.19.5&externalPlugins=&assumptions=%7B%7D)
 
-<img class="zoom-custom-imgs" src="./images/jsx-1.png" width="45%">
-<img class="zoom-custom-imgs" src="./images/jsx-2.png" width="45%">
+<Image :src="ImgJsx1" width="50%" />
+<Image :src="ImgJsx2" width="50%" />
 
 在上述图中，左边输入一段 JSX 代码 经过 babel 编译转换成 右侧 React.createElement/_jsx 方法的调用，这个从左侧到右侧转变的过程叫做 JSX 的转换
 
@@ -82,4 +86,4 @@ pnpm i -D -w rimraf rollup-plugin-generate-package-json rollup-plugin-typescript
 
 
 
-<SideTitle :page="$page" />
+

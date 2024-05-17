@@ -1,3 +1,8 @@
+<script setup>
+import ImgEvent1 from './images/event-1.png'
+import ImgEvent2 from './images/event-2.png'
+</script>
+
 # 实现事件系统
 
 事件系统本质上植根于浏览器事件模型，所以他隶属于 ReactDOM，在实现时要做到对Reconciler 0侵入。
@@ -17,11 +22,11 @@
 
 ## 模拟实现浏览器事件流程
 
-<img class="zoom-custom-imgs" src="./images/event-1.png" >
+<Image :src="ImgEvent1" />
 
-<img class="zoom-custom-imgs" src="./images/event-2.png" >
+<Image :src="ImgEvent2" />
 
-<SideTitle :page="$page" />
+
 
 
 

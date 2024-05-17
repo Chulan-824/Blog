@@ -1,3 +1,13 @@
+<script setup>
+import ImgTense1 from './images/tense-1.png'
+import ImgTense2 from './images/tense-2.png'
+import ImgTense3 from './images/tense-3.png'
+import ImgTense4 from './images/tense-4.png'
+import ImgTense5 from './images/tense-5.png'
+import ImgTense6 from './images/tense-6.png'
+
+</script>
+
 # 英文时态
 
 ## 英文时态的构成：四时四态
@@ -31,7 +41,7 @@
 
 表示不受时间限制的科学事实、客观真理、谚语格言，以及用于概括、结论、观点等。此时，这些动作或状态的发生不限于某个特定的时间，也即它们可发生于任何时间，包括现在、过去和将来。如下图所示：
 
-<img class="zoom-custom-imgs" src="./images/tense-1.png" >
+<Image :src="ImgTense1" />
 
 - The sun rises in the east and sets in the west. 太阳东升西落。
 - The world is round. 世界是圆的。
@@ -44,7 +54,7 @@
 
 表示经常发生的、习惯性的动作（action）或者是存在的状态（state）。如下图所示：
 
-<img class="zoom-custom-imgs" src="./images/tense-2.png" >
+<Image :src="ImgTense2" />
 
 #### 一、表示习惯的动作
 
@@ -83,7 +93,7 @@
 
 对于例句2，完成进行时是能够表示明确的时间段概念的，这个时间段就是“**从过去一直目前为止**”。如下图所示：
 
-<img class="zoom-custom-imgs" src="./images/tense-3.png" >
+<Image :src="ImgTense3" />
 
 综上所述，**一般现在时是在泛泛地谈时间，并没有时间段的概念；而完成进行时表示说话人的脑子里会有一个“到目前为止”的时间段的概念，甚至是给出像for about four years这样一个明确的时间段**。通过这样的对比，相信读者朋友对一般现在时应该有了一个更深入的理解，而不会再误认为一般现在时就是表示“现在”的动作了。
 
@@ -159,13 +169,13 @@
 
 上述例子均表示在过去某一特定的时间点（a specific point of time in the past）发生的动作或状态，可以图示为：
 
-<img class="zoom-custom-imgs" src="./images/tense-4.png" >
+<Image :src="ImgTense4" />
 
 ### 基本用法二：过去发生的重复或延续活动
 
 表示过去的一段时间（a specific period of time in the past）内延续或重复的动作，图示为：
 
-<img class="zoom-custom-imgs" src="./images/tense-5.png" >
+<Image :src="ImgTense5" />
 
 - I **slept** for eight hours last night. 我昨晚睡了八个小时。
 - She **lived** in our town for three years, but now she is living in Beijing.她在我们这个小镇生活了三年，不过她现在住在北京。
@@ -186,7 +196,7 @@
 
 现在完成时表示的延续动作图示如下：
 
-<img class="zoom-custom-imgs" src="./images/tense-6.png" >
+<Image :src="ImgTense6" />
 
 - **一般过去时**与“for＋时间段”连用，**表示动作在过去已经结束，并没有延续到现在**。
 - **现在完成时**与“for＋时间段”连用，**表示动作延续到现在，并且还有可能延续下去**。
@@ -597,4 +607,4 @@ B: They called at nine to say that they'd been held up. 他们9点钟时打过�
 5. 用will be doing来表示客观的将来，以避免与表示“意愿”的will do混淆。
 
 
-<SideTitle :page="$page" />
+

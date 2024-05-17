@@ -114,4 +114,4 @@ Fiber 架构中同时存在两棵 Fiber Tree，一颗是 `真实 UI 对应的 Fi
 参考：  
 [什么是双缓存](https://react.iamkasong.com/process/doubleBuffer.html#%E4%BB%80%E4%B9%88%E6%98%AF-%E5%8F%8C%E7%BC%93%E5%AD%98)
 
-<SideTitle :page="$page" />
+

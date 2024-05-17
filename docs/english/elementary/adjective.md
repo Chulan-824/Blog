@@ -477,4 +477,4 @@ slowly 是有 slow+ly 才成为副词，不能再改动 y
 - The boy said to his mother in an injured voice that she shouldn't have blamed him. 这个男孩用一种满是委屈受伤的声音对他妈妈说，她不应该费备他。
 > 这里的injured是讲这个男孩的，与the boy构成被动关系，所以用过去分词injured。当然如果一个动词与所讲到的人是主动关系，则会用现在分词。
 
-<SideTitle :page="$page" />
+

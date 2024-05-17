@@ -1,3 +1,11 @@
+<script setup>
+import ImgReconciler1 from './images/reconciler-1.png'
+import ImgReconciler2 from './images/reconciler-2.png'
+import ImgReconciler3 from './images/reconciler-3.png'
+import ImgReconciler4 from './images/reconciler-4.png'
+import ImgReconciler5 from './images/reconciler-5.png'
+</script>
+
 # 实现 Reconciler 架构
 
 reconciler 是 React 核心逻辑所在的模块，中文名叫协调器。协调（reconcile）就是 diff 算法的意思。是 react 得以运行的核心包(综合协调 react-dom, react, scheduler 各包之间的调用与配合)，管理 react 应用状态的输入和结果的输出，将输入信号最终转换成输出信号传递给渲染器。
@@ -6,11 +14,11 @@ reconciler 是 React 核心逻辑所在的模块，中文名叫协调器。协�
 
 jQuery 工作原理（过程驱动）：
 
-<img class="zoom-custom-imgs" src="./images/reconciler-1.png" >
+<Image :src="ImgReconciler1" />
 
 前端框架结构与工作原理（状态驱动）：
 
-<img class="zoom-custom-imgs" src="./images/reconciler-2.png" >
+<Image :src="ImgReconciler2" />
 
 有上述两种工作原理的对比，能得知，框架的原理是通过运行时核心模块，通过输入的内容去调用宿主环境的 API
 
@@ -37,13 +45,13 @@ jQuery 工作原理（过程驱动）：
 
 这就是 FiberNode（虚拟 DOM 在 React 中的实现）
 
-<img class="zoom-custom-imgs" src="./images/reconciler-3.png" >
+<Image :src="ImgReconciler3" />
 
 ## reconciler的工作方式 
 
 对于同一个节点，通过节点的 FiberNode 跟接点对应的 ReactElement 进行比较，并根据比较的结果生成不同标记（插入、删除、移动...），对应不同宿主环境API的执行，然后递归处理子节点
 
-<img class="zoom-custom-imgs" src="./images/reconciler-4.png" >
+<Image :src="ImgReconciler4" />
 
 比如，挂载\<div\>\</div\>：
 
@@ -99,7 +107,6 @@ Deletion Placement
 - 递：对应 beginWork
 - 归：对应 completeWork
 
-<img class="zoom-custom-imgs" src="./images/reconciler-5.png" >
+<Image :src="ImgReconciler5" />
 
 
-<SideTitle :page="$page" />

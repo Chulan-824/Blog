@@ -1,3 +1,9 @@
+<script setup>
+import ImgUseEffect1 from './images/useEffect-1.png'
+import ImgUseEffect2 from './images/useEffect-2.png'
+import ImgUseEffect3 from './images/useEffect-3.png'
+import ImgUseEffect4 from './images/useEffect-4.png'
+</script>
 # 实现 useEffect
 
 实现useEffect需要考虑的：
@@ -54,7 +60,7 @@ const effect = {
 - 对于 effect hook，Passive 代表`useEffect对应effect`
 - 对于 effect hook，HookHasEffect 代表`当前effect本次更新存在副作用`
 
-<img class="zoom-custom-imgs" src="./images/useEffect-1.png" >
+<Image :src="ImgUseEffect1" />
 
 为了方便使用，最好和其他 effect 连接成链表
 
@@ -62,11 +68,11 @@ render 时重置 effect 链表
 
 ### 数据结构图总结
 
-<img class="zoom-custom-imgs" src="./images/useEffect-2.png" >
+<Image :src="ImgUseEffect2" />
 
 ## effect 工作流程
 
-<img class="zoom-custom-imgs" src="./images/useEffect-3.png" >
+<Image :src="ImgUseEffect3" />
 
 ### 调度副作用
 
@@ -140,6 +146,6 @@ mount、update 时的区别
 
 ### 总结
 
-<img class="zoom-custom-imgs" src="./images/useEffect-4.png" >
+<Image :src="ImgUseEffect4" />
 
-<SideTitle :page="$page" />
+

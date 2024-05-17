@@ -1,3 +1,6 @@
+<script setup>
+import ImgVerb2_1 from './images/verb2-1.png'
+</script>
 # 动词分类（二）：英语的五种基本句型
 
 ## 五种基本句型概述
@@ -19,7 +22,7 @@
 - We can call Internet addicts (上瘾的人) a Webaholic. 我们可以管网上瘾君子叫网虫。
 - Internet dating hurts. 网恋有害。
 
-<img class="zoom-custom-imgs" src="./images/verb2-1.png" >
+<Image :src="ImgVerb2_1" />
 
 我们可以说，**动词构成了一个句子的骨架结构**。因为是动词决定了一个句子是否有宾语、有几个宾语以及其他句子成分。
 
@@ -113,4 +116,4 @@
 - I made John a cake. 我给约翰做了一块蛋糕。**间接宾语＋直接宾语**：在宾语 John 的后面添上一个 is，即 John is a cake.（约翰是一块蛋糕。）这显然讲不通，所以这里是一个双宾语结构，a cake 是一个直接宾语。
 
 
-<SideTitle :page="$page" />
+

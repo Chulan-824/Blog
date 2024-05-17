@@ -1,3 +1,7 @@
+<script setup>
+import ImgConcurrentUpdateRealize1 from './images/concurrentUpdateRealize-1.png'
+</script>
+
 # 实现并发更新
 
 要实现并发更新，需要做的改动包括：
@@ -42,7 +46,7 @@
 - 时间切片
 - 高优先级更新打断低优先级更新
 
-<img class="zoom-custom-imgs" src="./images/concurrentUpdateRealize-1.png" >
+<Image :src="ImgConcurrentUpdateRealize1" />
 
 ## 扩展state计算机制
 
@@ -137,4 +141,4 @@
 - 中间可能会产生不符合预期的中间状态（只兼顾优先级）
 - react 只能保证结果状态兼顾**连续性**和**优先级**
 
-<SideTitle :page="$page" />
+

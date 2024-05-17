@@ -1,3 +1,12 @@
+<script setup>
+import ImgUpdate1 from './images/update-1.png'
+import ImgUpdate2 from './images/update-2.png'
+import ImgUpdate3 from './images/update-3.png'
+import ImgUpdate4 from './images/update-4.png'
+import ImgUpdate5 from './images/update-5.png'
+import ImgCommit1 from './images/commit-1.png'
+</script>
+
 # 状态更新机制
 
 在 React 中，常见的触发更新的方式有：
@@ -20,7 +29,7 @@
 
 他们的关系如下图：
 
-<img class="zoom-custom-imgs" src="./images/update-1.png" >
+<Image :src="ImgUpdate1" />
 
 ## 接入状态更新机制
 
@@ -31,9 +40,9 @@
 - 更新可能发生于任意组件，而更新流程是从根节点递归的
 - 需要一个统一的根节点保存通用信息
 
-<img class="zoom-custom-imgs" src="./images/update-2.png" >
+<Image :src="ImgUpdate2" />
 
-<img class="zoom-custom-imgs" src="./images/update-3.png" >
+<Image :src="ImgUpdate3" />
 
 ## 初探mount流程
 
@@ -113,7 +122,7 @@ pnpm i -d -w @rollup/plugin-replace
 
 相比于执行5次Placment，我们可以构建好「离屏DOM树」后，对div执行1次Placement操作
 
-<img class="zoom-custom-imgs" src="./images/update-4.png" >
+<Image :src="ImgUpdate4" />
 
 ### completeWork 
 
@@ -128,7 +137,7 @@ flags 分布在不同 fiberNode 中，如何快速找到他们？
 
 答案：利用 completeWork 向上遍历（归）的流程，将子 fiberNode 的 flags 冒泡到父 fiberNode
 
-<img class="zoom-custom-imgs" src="./images/update-5.png" >
+<Image :src="ImgUpdate5" />
 
 ### commit阶段
 
@@ -147,8 +156,6 @@ flags 分布在不同 fiberNode 中，如何快速找到他们？
 - fiber 树的切换
 - 执行 Placement 对应操作（暂时实现）
 
-<img class="zoom-custom-imgs" src="./images/commit-1.png" >
+<Image :src="ImgCommit1" />
 
 
-
-<SideTitle :page="$page" />

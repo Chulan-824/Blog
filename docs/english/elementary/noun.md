@@ -1,3 +1,7 @@
+<script setup>
+import ImgNoun1 from './images/noun-1.png'
+</script>
+
 # 名词
 
 ## 名词短语
@@ -30,7 +34,7 @@
 
 综上所述，在英语里，修饰名词的定语，其语序的位置是极有规律的，可以总结为下列的`黄金公式`：
 
-<img class="zoom-custom-imgs" src="./images/noun-1.png" >
+<Image :src="ImgNoun1" />
 
 `尽管可以有副词作右置定语，但因较少用到，在此不作讨论`
 
@@ -581,4 +585,4 @@ of 最熟悉的应该是它表示的“所有关系”，译成 **……的**
 - the news of the team's victory 该队胜利的消息
 - the news of the team's having won 该队获胜的消息（意思是the news that the team had won或The news was that the team had won.）
 
-<SideTitle :page="$page" />
+

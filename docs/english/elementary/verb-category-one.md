@@ -1,5 +1,14 @@
+<script setup>
+import ImgVerb1 from './images/verb-1.png'
+import ImgVerb2 from './images/verb-2.png'
+import ImgVerb3 from './images/verb-3.png'
+import ImgVerb4 from './images/verb-4.png'
+import ImgVerb5 from './images/verb-5.png'
+import ImgVerb6 from './images/verb-6.png'
+import ImgVerb7 from './images/verb-7.png'
+import ImgVerb8 from './images/verb-8.png'
+</script>
 # 动词分类（一）：实义动词与（情态）助动词
-
 
 根据动词的词义和在谓语中的作用，我们可以把动词分为**实义动词（notional verb）**、**助动词（auxiliary verb）**和**情态助动词（modal verb）**。
 
@@ -23,11 +32,11 @@
 3. have: has, had, having
 
 以上这些助动词及其各种变化形式的意义和用法我们将在以后的各章中详细讨论，在此仅举几例予以说明。请看下表：  
-<img class="zoom-custom-imgs" src="./images/verb-1.png" >
+<Image :src="ImgVerb1" />
 
 ### 用作实义动词的be，do和have
 
-<img class="zoom-custom-imgs" src="./images/verb-2.png" >
+<Image :src="ImgVerb2" />
 
 ## 情态助动词（modal verb）
 
@@ -54,7 +63,7 @@ can/could, may/might, shall/should, will/would, must和had better。
 
 这时直接在 be 动词或情态动词的后面加否定词 not 即构成否定句。请看下表中的例句比较：
 
-<img class="zoom-custom-imgs" src="./images/verb-3.png" >
+<Image :src="ImgVerb3" />
 
 ### 谓语动词是实义动词的否定
 
@@ -62,11 +71,11 @@ can/could, may/might, shall/should, will/would, must和had better。
 如果是一般现在时的句子，谓语则是**do＋not＋动词原形**结构；若句子的主语是单数第三人称，谓语则用**does＋not＋动词原形**。  
 如果是一般过去时的句子，则用**did＋not＋动词原形**。请看下表中的例句比较：
 
-<img class="zoom-custom-imgs" src="./images/verb-4.png" >
+<Image :src="ImgVerb4" />
 
 ### 否定的缩写  
 
-<img class="zoom-custom-imgs" src="./images/verb-5.png" >
+<Image :src="ImgVerb5" />
 
 ## 一般疑问句
 
@@ -76,7 +85,7 @@ can/could, may/might, shall/should, will/would, must和had better。
 
 这时要构成一般疑问句，只需将 be 动词或情态动词移到句首。
 
-<img class="zoom-custom-imgs" src="./images/verb-6.png" >
+<Image :src="ImgVerb6" />
 
 > 注意一般疑问句的回答方式：肯定回答用yes，否定回答用no。
 
@@ -84,7 +93,7 @@ can/could, may/might, shall/should, will/would, must和had better。
 
 如果句子是一般现在时，要借助助动词 do 或 does，将 do 或 does 放在句首。如果是一般过去时，则是将 did 放在句首，谓语动词变回动词原形。
 
-<img class="zoom-custom-imgs" src="./images/verb-7.png" >
+<Image :src="ImgVerb7" />
 
 ## 特殊疑问句
 
@@ -156,7 +165,6 @@ how 单独使用时，此时 how 是对**动作的方式**进行提问。
 
 其他表示频率的短语还有：
 
-<img class="zoom-custom-imgs" src="./images/verb-8.png" >
+<Image :src="ImgVerb8" />
 
 
-<SideTitle :page="$page" />

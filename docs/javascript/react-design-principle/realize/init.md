@@ -249,4 +249,4 @@ pnpm i -D -w rollup
 
 根目录新建 script 文件用于存放项目所有脚本文件，在新建 rollup 文件存放对应 rollup 代码
 
-<SideTitle :page="$page" />
+

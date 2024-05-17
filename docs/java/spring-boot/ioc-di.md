@@ -1,3 +1,7 @@
+<script setup>
+import ImgIocDi1 from '../images/iocdi-1.png'
+</script>
+
 # IOC / DI
 
 ## IOC 控制反转
@@ -10,7 +14,7 @@ IOC（Inversion of Control）即控制反转，它不是什么技术，而是一
 
 这里**反转的是对象的控制**，应用程序从**主动出击**到**被动等待** IOC 容器创建并注入所需对象。
 
-<Image src='../images/iocdi-1.png' :width="300" :height="300" />
+<Image :src="ImgIocDi1" />
 
 ### 好处
 

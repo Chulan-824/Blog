@@ -353,5 +353,5 @@ Child.prototype.sayAge = function() {
 
 [JS继承 原型链继承、构造函数继承、组合继承、原型继承、寄生式继承、寄生组合继承](https://juejin.cn/post/6914216540468576263#heading-4)
 
-<SideTitle :page="$page" />
+
 

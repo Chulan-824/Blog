@@ -1,3 +1,7 @@
+<script setup>
+import ImgExplorationUpdate1 from './images/explorationUpdate-1.png'
+</script>
+
 # 初探 Update 流程
 
 ## 前言
@@ -75,7 +79,6 @@ function App() {
 
 ## 总结
 
-<img class="zoom-custom-imgs" src="./images/explorationUpdate-1.png" >
+<Image :src="ImgExplorationUpdate1" />
 
 
-<SideTitle :page="$page" />

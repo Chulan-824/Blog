@@ -32,4 +32,3 @@ Array.prototype.push = function(...items) {
 
 
 
-<SideTitle :page="$page" />

@@ -1,3 +1,15 @@
+<script setup>
+import ImgVdom1 from './images/vdom1.png'
+import ImgVdom2 from './images/vdom2.png'
+import ImgVdom3 from './images/vdom3.png'
+import ImgVdom4 from './images/vdom4.png'
+import ImgRunTime1 from './images/runTime1.png'
+import ImgCore1 from './images/core1.png'
+import ImgCore2 from './images/core2.png'
+import ImgCore3 from './images/core3.png'
+import ImgCore4 from './images/core4.png'
+import ImgCore5 from './images/core5.png'
+</script>
 # Vue设计与实现笔记
 
 ## 设计理念
@@ -63,13 +75,13 @@ div.textContent = 'hello vue3'
 
 那么在第一创建页面的时候性能对比，如下
 
-<img class="zoom-custom-imgs" src="./images/vdom1.png">
+<Image :src="ImgVdom1" />
 
 创建页面的时候，三者没有数量级上的差别，所以区别不大
 
 接着我们在看更新页面时的性能对比，如下
 
-<img class="zoom-custom-imgs" src="./images/vdom2.png">
+<Image :src="ImgVdom2" />
 
 - innerHTML 需要重新销毁旧的 DOM，然后重新创建所有新 DOM
 - 虚拟 DOM 只需要在上述基础增加 Diff 找出必要更新的 DOM 进行更新即可
@@ -78,11 +90,11 @@ div.textContent = 'hello vue3'
 
 那么如果我们的页面元素变得非常大的情况，更新和需要的性能消耗就如下所示
 
-<img class="zoom-custom-imgs" src="./images/vdom3.png">
+<Image :src="ImgVdom3" />
 
 #### 总结
 
-<img class="zoom-custom-imgs" src="./images/vdom4.png">
+<Image :src="ImgVdom4" />
 
 ### 运行时和编译时
 
@@ -116,7 +128,7 @@ Render(obj, document.body)
 
 这里不涉及任何额外操作，和学习额外的知识，就是定义对象，使用渲染函数渲染。但是有一个问题，就是定义对象去描述 HTML 方法太麻烦了，而且不直观，能不能直接使用 HTML 标签去写呢？达到以下效果
 
-<img class="zoom-custom-imgs" src="./images/runTime1.png">
+<Image :src="ImgRunTime1" />
 
 为此我们可以编写一个叫 Compiler 的程序，作用就是把 HTML 的字符串编译成上述 Render 函数需要用的树形结果的数据对象，然后执行代码逻辑就是
 
@@ -163,17 +175,17 @@ const count = ref(0)
 console.log(count)
 ```
 
-<img class="zoom-custom-imgs" src="./images/core1.png">
+<Image :src="ImgCore1" />
 
 浏览器运行编写自定义的 formatter，从而自定义输出形式，Vue3 的源码中也有 initCustomFormatter 函数，该函数就是用来在开发环境下初始化自定义 formatter 的。
 
 以 Chrome 为例，打开 DevTools,勾选 Console => Enable custom formatters
 
-<img class="zoom-custom-imgs" src="./images/core2.png" width="25%">
+<Image :src="ImgCore2" width="25%" />
 
 然后刷新浏览器并查看控制台
 
-<img class="zoom-custom-imgs" src="./images/core3.png" width="20%">
+<Image :src="ImgCore3" width="20%" />
 
 ### 控制框架代码体积
 
@@ -343,7 +355,7 @@ function foo(val: any) {
 }
 ```
 
-<img class="zoom-custom-imgs" src="./images/core4.png">
+<Image :src="ImgCore4" />
 
 在调用 foo 函数时，我们传递了一个字符串类型的参数 'str'，按照之前的分析，得到的结果 res 的类型应该也是字符串类型，然而当我们把鼠标指针悬浮到 res 常量上时，可以看到其类型是 any，这并不是我们想要的结果
 
@@ -355,25 +367,6 @@ function foo<T extends any>(val: T): T {
 }
 ```
 
-<img class="zoom-custom-imgs" src="./images/core5.png">
+<Image :src="ImgCore5" />
 
 可以看到，res 的类型是字符字面量 'str' 而不是 any 了，这说明我们的代码生效了
-
-
-<SideTitle :page="$page" />
-
-
-ugc 情节树
-
-section_type 
-1 Scene Block
-2 Branch Block
-
-choice 分支存在 choice 数组中
-
-content   choice name
-
-
-
-英语语法
-

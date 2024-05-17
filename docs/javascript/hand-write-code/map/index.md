@@ -72,4 +72,4 @@ console.log('newMyArray', newMyArray); // [2, 4, 6]
 
 
 
-<SideTitle :page="$page" />
+

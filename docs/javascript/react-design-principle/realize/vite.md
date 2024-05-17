@@ -79,5 +79,5 @@ vite 项目所需启动依赖放入 monorepo 项目依赖中
 - 如果vite热更新失效，可能是因为 `书写的React组件不符合规范`，可以引入 [eslint-plugin-react-refresh](https://github.com/ArnaudBarre/eslint-plugin-react-refresh) 插件检查不符合规范的地方。
 :::
 
-<SideTitle :page="$page" />
+
 

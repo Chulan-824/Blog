@@ -97,4 +97,4 @@ git rebase -i HEAD~3
 [git实用技巧：将多次commit合并为一次](https://blog.csdn.net/vxzhg/article/details/105448190)
 
 
-<SideTitle :page="$page" />
+
