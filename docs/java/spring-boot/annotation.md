@@ -166,3 +166,36 @@ public class MyController {
     }
 }
 ```
+
+## @ConfigurationProperties
+
+用于将外部配置文件（如 application.properties 或 application.yml）中的配置属性映射到 Java 类中。
+
+主要作用是简化配置的管理，使得配置项可以通过强类型的方式进行访问和使用。
+
+::: code-group
+
+```yml [application.yml]
+app:
+  name: MyApp
+  description: This is my application
+  version: 1.0.0
+
+```
+
+```java [AppProperties]
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "app")
+public class AppProperties {
+    private String name;
+    private String description;
+    private String version;
+}
+
+```
+
+:::
+
