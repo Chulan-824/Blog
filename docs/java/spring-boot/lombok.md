@@ -189,3 +189,136 @@ public class UserLombok {
 ```
 
 :::
+
+### @Slf4j
+
+`@Slf4j` 可以用来生成注解对象，你可以根据自己的日志实现方式来选用不同的注解，比如说：`@Log`、`@Log4j`、`@Log4j2`、`@Slf4j` 等。
+
+::: code-group
+
+```java{1} [编译前]
+@Slf4j
+public class Log4jDemo {
+  public static void main(String[] args) {
+    log.info("level:{}","info");
+    log.warn("level:{}","warn");
+    log.error("level:{}", "error");
+  }
+}
+```
+
+```java{2} [编译后]
+public class Log4jDemo {
+  private static final Logger log = LoggerFactory.getLogger(Log4jDemo.class);
+
+  public Log4jDemo() {
+  }
+
+  public static void main(String[] args) {
+    log.info("level:{}", "info");
+    log.warn("level:{}", "warn");
+    log.error("level:{}", "error");
+  }
+}
+```
+
+:::
+
+### @Builder
+
+`@Builder` 注解可以用来通过建造者模式来创建对象，这样就可以通过链式调用的方式进行对象赋值，非常的方便。
+
+作用:
+
+- 生成静态内部类
+- 生成构建方法
+- 生成build()方法
+- 支持复杂对象构建
+
+::: code-group
+
+```java{1,8} [编译前]
+@Builder
+@ToString
+public class User {
+  private String name;
+  private int age;
+
+  public static void main(String[] args) {
+    User demo = User.builder().age(18).name("鸡你太美").build();
+    System.out.println(demo);
+  }
+}
+```
+
+```java{15-17,23-46} [编译后]
+public class User {
+  private String name;
+  private int age;
+
+  public static void main(String[] args) {
+    User demo = builder().age(18).name("鸡你太美").build();
+    System.out.println(demo);
+  }
+
+  User(final String name, final int age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  public static UserBuilder builder() {
+    return new UserBuilder();
+  }
+
+  public String toString() {
+    return "User(name=" + this.name + ", age=" + this.age + ")";
+  }
+
+  public static class UserBuilder {
+    private String name;
+    private int age;
+
+    UserBuilder() {
+    }
+
+    public UserBuilder name(final String name) {
+      this.name = name;
+      return this;
+    }
+
+    public UserBuilder age(final int age) {
+      this.age = age;
+      return this;
+    }
+
+    public User build() {
+      return new User(this.name, this.age);
+    }
+
+    public String toString() {
+      return "User.UserBuilder(name=" + this.name + ", age=" + this.age + ")";
+    }
+  }
+}
+```
+
+:::
+
+> 由于 @Data 和 @Builder 配合使用的时候会导致无参构造方法丢失，所以我们主动声明了无参构造方法，并使用 @Tolerate 注解来告诉 lombok 请允许我们的无参构造方法存在（没有无参构造方法的时候会导致 ORM 映射出错）
+
+```java{1-2,7-8}
+@Data
+@Builder
+public class User {
+  private String name;
+  private int age;
+
+  @Tolerate
+  public User() {}
+
+  public static void main(String[] args) {
+    User demo = User.builder().age(18).name("鸡你太美").build();
+    System.out.println(demo);
+  }
+}
+```

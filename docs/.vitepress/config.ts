@@ -198,7 +198,9 @@ function sidebarJava() {
         { text: 'IOC/DI', link: 'spring-boot/ioc-di' },
         { text: '注解', link: 'spring-boot/annotation' },
         { text: '配置文件', link: 'spring-boot/configuration' },
-        { text: 'lombok', link: 'spring-boot/lombok' },
+        { text: 'Lombok', link: 'spring-boot/lombok' },
+        { text: 'MySQL', link: 'spring-boot/mysql' },
+        { text: 'Logback', link: 'spring-boot/logback' },
       ],
     },
   ]

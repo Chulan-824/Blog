@@ -1,5 +1,8 @@
 <script setup>
 import ImgIocDi1 from '../images/iocdi-1.png'
+import ImgIocDi2 from '../images/iocdi-2.png'
+import ImgIocDi3 from '../images/iocdi-3.png'
+import ImgIocDi4 from '../images/iocdi-4.png'
 </script>
 
 # IOC / DI
@@ -35,6 +38,7 @@ IOC（Inversion of Control）即控制反转，它不是什么技术，而是一
 2. 添加测试代码
 
 ::: code-group
+
 ```xml [beans.xml]
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -66,6 +70,7 @@ class SpringbootWebReqRespApplicationTests {
     }
 }
 ```
+
 :::
 
 #### 基于注解配置
@@ -73,12 +78,11 @@ class SpringbootWebReqRespApplicationTests {
 为了更好的标识 bean 对象,Spring 框架提供了 @Component 的衍生注解:
 
 - @Controller （标注在控制层类上）
-- @Service    （标注在业务层类上）
+- @Service （标注在业务层类上）
 - @Repository （标注在数据访问层类上）
-- @Component  （不属于以上三类时，用此注解）
+- @Component （不属于以上三类时，用此注解）
 
 [springboot中创建bean的7种方式](https://juejin.cn/post/7226696723354370085?searchId=2024051416214165E2AE301714E50D0407)
-
 
 ## DI 依赖注入
 
@@ -157,6 +161,26 @@ public class UserService {
 
 不推荐原因：[公司为什么禁止在SpringBoot项目中使用@Autowired注解](https://juejin.cn/post/7275009721760432168#heading-5)
 
+#### 存在多个同类型 bean 对象
+
+解决方案：
+
+- @Primary
+- @Qualifier
+- @Resource
+
+1. 使用 @Primary 注解：当存在多个相同类型的 Bean 注入时，加上 @Primary 注解，来确定默认的实现。
+
+<Image :src="ImgIocDi2" />
+
+2. 使用@Qualifier注解：指定当前要注入的bean对象。 在@Qualifier的value属性中，指定注入的bean的名称。
+
+   > @Qualifier注解不能单独使用，必须配合@Autowired使用
+   > <Image :src="ImgIocDi3" />
+
+3. 使用@Resource注解：是按照bean的名称进行注入。通过name属性指定要注入的bean的名称。
+
+<Image :src="ImgIocDi4" />
 
 ## 参考
 
@@ -164,12 +188,10 @@ public class UserService {
 
 [【Java】第一个 Spring 入门程序](https://juejin.cn/post/7297094079116345355#heading-9)
 
-
-
 <!-- ## 什么是 IOC / DI
 https://juejin.cn/post/7297002272986120230#heading-13
 
-### IOC 
+### IOC
 
 ### DI
 

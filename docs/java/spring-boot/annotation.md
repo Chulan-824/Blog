@@ -35,12 +35,13 @@ public class MyComponent {
 例如，@RequestMapping(value = "/home") 或 @RequestMapping("/home") 都会将 HTTP 请求映射到 /home 路径的处理器。
 
 ```java
-@RequestMapping(value = "/home") / @RequestMapping("/home") 
+@RequestMapping(value = "/home") / @RequestMapping("/home")
 @ResponseBody
 public String getHome() {
     return "home";
 }
 ```
+
 :::
 
 ::: details HTTP 方法限定
@@ -55,6 +56,7 @@ public String postSubmit() {
     return "Post Submit";
 }
 ```
+
 :::
 
 ::: details 请求参数和请求头
@@ -73,6 +75,7 @@ public String getFoosWithHeader() {
     return "Get some Foos with Header";
 }
 ```
+
 :::
 
 ::: details 生产与消费
@@ -116,9 +119,12 @@ public ResponseEntity<?> deleteBazz(@PathVariable String id){
     return new ResponseEntity<>(new Bazz(id), HttpStatus.OK);
 }
 ```
+
 :::
 
 更多: [Spring RequestMapping](https://www.baeldung.com/spring-requestmapping)
+
+## @RequestBody
 
 ## @ResponseBody​​​​
 
@@ -147,6 +153,7 @@ public class UserController {
 @RestController = @Controller + @ResponseBody
 
 用途和特点：
+
 1. 自动响应序列化：使用 @RestController，Spring 会自动将方法的返回值序列化为 JSON 或 XML，返回给客户端，适用于构建 RESTful Web 服务
 2. 便捷的API开发：@RestController 使得创建 RESTful Web 服务变得非常简单和直接，因为它减少了常规的模板代码（例如，在每个方法上显式地添加 @ResponseBody）
 3. 请求处理：标记为 @RestController 的类可以使用 @RequestMapping 或其变体（如 @GetMapping, @PostMapping, @PutMapping 等）来映射 HTTP 请求到对应的处理方法。
@@ -180,7 +187,6 @@ app:
   name: MyApp
   description: This is my application
   version: 1.0.0
-
 ```
 
 ```java [AppProperties]
@@ -198,4 +204,3 @@ public class AppProperties {
 ```
 
 :::
-
