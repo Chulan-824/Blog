@@ -126,6 +126,29 @@ public ResponseEntity<?> deleteBazz(@PathVariable String id){
 
 ## @RequestBody
 
+用于将 HTTP 请求体中的 JSON 或 XML 数据绑定到方法参数上，并将其转换为指定的Java 对象。
+
+```java
+@RestController
+public class UserController {
+
+    @PostMapping("/users")
+    public User createUser(@RequestBody User user) {
+        log.info("新增用户: {}" , user);
+
+        userService.add(user);
+        return Result.success();
+    }
+}
+```
+
+```json
+{
+  "name": "John",
+  "age": 30
+}
+```
+
 ## @ResponseBody​​​​
 
 功能：
@@ -204,3 +227,75 @@ public class AppProperties {
 ```
 
 :::
+
+## @Value
+
+`@Value` 用于将外部化配置值注入到类的字段、方法参数或构造函数参数中。
+
+::: code-group
+
+```yml [application.yml]
+jwt:
+  secret: fuqiangminzhuwenminghexieziyoupingdenggongzhengfazhiaiguojingyechengxinyoushan
+```
+
+```java [AppProperties]
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+public class JwtTokenUtl {
+  @Value("${jwt.secret}")
+  private String secret;
+
+  ...
+}
+
+```
+
+:::
+
+## @Configuration
+
+1. 声明配置类：@Configuration 告诉 Spring 容器，该类可以使用 Spring IoC 容器作为源配置 bean 的定义。这个类中定义的 bean 将会被 Spring 容器进行管理。
+
+2. 定义 bean：在配置类中使用 @Bean 注解的方法将会返回一个 Spring bean，并且这个 bean 的 ID 为方法名。@Bean 注解的方法会被 Spring 容器调用并返回对象，该对象将注册为 Spring 容器中的 bean。
+
+3. 替代 XML 配置：使用 @Configuration 注解的配置类可以替代传统的 XML 配置文件，提供一种类型安全和面向对象的方式来配置 Spring 应用。
+
+## @ControllerAdvice
+
+主要作用于所有的控制器（即 @Controller 和 @RestController 注解标注的类），提供一种集中管理和处理这些逻辑的方法。
+
+## @RestControllerAdvice
+
+`@RestControllerAdvice` 用于创建全局异常处理类，用于捕获和处理整个应用程序中的异常。
+
+@RestControllerAdvice = @ControllerAdvice + @ResponseBody
+
+```java
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    // 处理特定类型的异常
+    @ExceptionHandler(value = IllegalArgumentException.class)
+    public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) {
+        return new ResponseEntity<>("Invalid argument: " + ex.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    // 处理其他未处理的异常
+    @ExceptionHandler(value = Exception.class)
+    public ResponseEntity<String> handleException(Exception ex) {
+        return new ResponseEntity<>("An error occurred: " + ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+```
+
+- @ExceptionHandler 注解：用于指定处理特定类型的异常的方法。
+- handleIllegalArgumentException 方法：当抛出 IllegalArgumentException 异常时，该方法将被调用，返回一个 400 状态码和错误消息。
+- handleException 方法：用于处理所有未处理的异常，返回 500 状态码和错误消息。

@@ -201,6 +201,7 @@ function sidebarJava() {
         { text: 'Lombok', link: 'spring-boot/lombok' },
         { text: 'MySQL', link: 'spring-boot/mysql' },
         { text: 'Logback', link: 'spring-boot/logback' },
+        { text: 'JWT', link: 'spring-boot/jwt' },
       ],
     },
   ]
