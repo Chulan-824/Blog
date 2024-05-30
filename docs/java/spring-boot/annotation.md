@@ -299,3 +299,7 @@ public class GlobalExceptionHandler {
 - @ExceptionHandler 注解：用于指定处理特定类型的异常的方法。
 - handleIllegalArgumentException 方法：当抛出 IllegalArgumentException 异常时，该方法将被调用，返回一个 400 状态码和错误消息。
 - handleException 方法：用于处理所有未处理的异常，返回 500 状态码和错误消息。
+
+## @Transactional
+
+## @Aspect

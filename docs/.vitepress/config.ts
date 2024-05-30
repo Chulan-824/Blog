@@ -202,7 +202,15 @@ function sidebarJava() {
         { text: 'MySQL', link: 'spring-boot/mysql' },
         { text: 'Logback', link: 'spring-boot/logback' },
         { text: 'JWT', link: 'spring-boot/jwt' },
+        { text: '拦截器', link: 'spring-boot/interceptor' },
+        { text: '事务', link: 'spring-boot/transaction' },
+        { text: 'AOP', link: 'spring-boot/aop' },
       ],
+    },
+    {
+      text: 'IDE',
+      collapsed: false,
+      link: 'ide',
     },
   ]
 }
