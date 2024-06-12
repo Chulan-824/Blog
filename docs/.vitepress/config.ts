@@ -205,6 +205,7 @@ function sidebarJava() {
         { text: '拦截器', link: 'spring-boot/interceptor' },
         { text: '事务', link: 'spring-boot/transaction' },
         { text: 'AOP', link: 'spring-boot/aop' },
+        { text: 'bean的管理', link: 'spring-boot/bean' },
       ],
     },
     {

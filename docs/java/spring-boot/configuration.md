@@ -69,10 +69,14 @@ user:
 ```
 
 ```yml [数组/List/Set集合]
-hobby: 
+hobby:
   - java
   - game
   - sport
 ```
 
 :::
+
+## 配置优先级
+
+命令行参数(--xxx=xxx) > java系统属性(-Dxx=xxx) > application.properties > application.yml > application.yaml
