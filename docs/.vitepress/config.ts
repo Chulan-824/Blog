@@ -16,6 +16,7 @@ export default defineConfig({
       '/javascript/': { base: '/javascript/', items: sidebarJavaScript() },
       '/java/': { base: '/java/', items: sidebarJava() },
       '/english/': { base: '/english/', items: sidebarEnglish() },
+      '/other/': { base: '/other/', items: sidebarOther() },
     },
     docFooter: {
       prev: '上一页',
@@ -67,6 +68,7 @@ function nav() {
     { text: 'JavaScript', link: '/javascript/module' },
     { text: 'Java', link: '/java/spring-boot/ioc-di' },
     { text: 'English Grammar', link: '/english/elementary/noun' },
+    { text: 'Other', link: '/other/keyboard-shortcuts' },
   ]
 }
 
@@ -209,10 +211,9 @@ function sidebarJava() {
       ],
     },
     {
-      text: 'IDE',
-      collapsed: false,
-      link: 'ide',
-    },
+      text: 'MyBatis',
+      link: 'mybatis',
+    }
   ]
 }
 
@@ -234,6 +235,16 @@ function sidebarEnglish() {
         },
         { text: '英文时态', link: 'elementary/english-tenses' },
       ],
+    },
+  ]
+}
+
+function sidebarOther() {
+  return [
+    {
+      text: '快捷键',
+      collapsed: false,
+      link: 'keyboard-shortcuts',
     },
   ]
 }
