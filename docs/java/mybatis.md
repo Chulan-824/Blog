@@ -281,4 +281,523 @@ public void checkLoginByParam() {
 
 ### 总结
 
+## 查询功能
+
+如果查询出的数据只有一条，可以通过
+
+1. 实体类对象接收
+2. List 集合接收
+3. Map 集合接收，结果`{password=123456, sex=男, id=1, age=23, username=admin}`
+
+如果查询出的数据有多条，一定不能用实体类对象接收，会抛异常 TooManyResultsException，可以通过
+
+1. 实体类类型的 List 集合接收
+2. Map 类型的 List 集合接收
+3. 在 mapper 接口的方法上添加@MapKey注解
+
 针对获取参数推荐采用 实例类型/@Params 标识两种方法
+
+### 查询一个实体类对象
+
+:::code-group
+
+```java [java]
+/**
+ * 根据用户id查询用户信息
+ * @param id
+ * @return
+ */
+User getUserById(@Param("id") int id);
+```
+
+````xml [xml]
+User getUserById(@Param("id") int id);
+```<!--User getUserById(@Param("id") int id);-->
+<select id="getUserById" resultType="User">
+	select * from t_user where id = #{id}
+</select>
+````
+
+:::
+
+### 查询一个List集合
+
+:::code-group
+
+```java [java]
+/**
+ * 查询所有用户信息
+ * @return
+ */
+List<User> getUserList();
+```
+
+```xml [xml]
+<!--List<User> getUserList();-->
+<select id="getUserList" resultType="User">
+	select * from t_user
+</select>
+```
+
+:::
+
+### 查询单个数据
+
+:::code-group
+
+```java [java]
+/**
+ * 查询用户的总记录数
+ * @return
+ * 在MyBatis中，对于Java中常用的类型都设置了类型别名
+ * 例如：java.lang.Integer-->int|integer
+ * 例如：int-->_int|_integer
+ * 例如：Map-->map,List-->list
+ */
+int getCount();
+```
+
+```xml [xml]
+<!--int getCount();-->
+<select id="getCount" resultType="_integer">
+	select count(id) from t_user
+</select>
+```
+
+:::
+
+### 查询一条数据为map集合
+
+:::code-group
+
+```java [java]
+/**
+ * 根据用户id查询用户信息为map集合
+ * @param id
+ * @return
+ */
+Map<String, Object> getUserToMap(@Param("id") int id);
+```
+
+```xml [xml]
+<!--Map<String, Object> getUserToMap(@Param("id") int id);-->
+<select id="getUserToMap" resultType="map">
+	select * from t_user where id = #{id}
+</select>
+<!--结果：{password=123456, sex=男, id=1, age=23, username=admin}-->
+```
+
+:::
+
+### 查询多条数据为map集合
+
+:::code-group
+
+```java [方法一java]
+/**
+ * 查询所有用户信息为map集合
+ * @return
+ * 将表中的数据以map集合的方式查询，一条数据对应一个map；若有多条数据，就会产生多个map集合，此时可以将这些map放在一个list集合中获取
+ */
+List<Map<String, Object>> getAllUserToMap();
+```
+
+```xml [方法一xml]
+<!--Map<String, Object> getAllUserToMap();-->
+<select id="getAllUserToMap" resultType="map">
+	select * from t_user
+</select>
+<!--
+	结果：
+	[{password=123456, sex=男, id=1, age=23, username=admin},
+	{password=123456, sex=男, id=2, age=23, username=张三},
+	{password=123456, sex=男, id=3, age=23, username=张三}]
+-->
+```
+
+```java [方法二java]
+/**
+ * 查询所有用户信息为map集合
+ * @return
+ * 将表中的数据以map集合的方式查询，一条数据对应一个map；
+ * 若有多条数据，就会产生多个map集合，并且最终要以一个map的方式返回数据
+ * 此时需要通过@MapKey注解设置map集合的键，值是每条数据所对应的map集合
+ */
+@MapKey("id")
+Map<String, Object> getAllUserToMap();
+```
+
+```xml [方法二xml]
+<!--Map<String, Object> getAllUserToMap();-->
+<select id="getAllUserToMap" resultType="map">
+	select * from t_user
+</select>
+<!--
+	结果：
+	{
+	1={password=123456, sex=男, id=1, age=23, username=admin},
+	2={password=123456, sex=男, id=2, age=23, username=张三},
+	3={password=123456, sex=男, id=3, age=23, username=张三}
+	}
+-->
+```
+
+:::
+
+## 特殊SQL的执行
+
+### 模糊查询
+
+:::code-group
+
+```java [java]
+/**
+ * 根据用户名进行模糊查询
+ * @param username
+ * @return java.util.List<com.atguigu.mybatis.pojo.User>
+ */
+List<User> getUserByLike(@Param("username") String username);
+```
+
+```xml [xml]
+<!--List<User> getUserByLike(@Param("username") String username);-->
+<select id="getUserByLike" resultType="User">
+	<!--select * from t_user where username like '%${mohu}%'-->
+	<!--select * from t_user where username like concat('%',#{mohu},'%')-->
+	select * from t_user where username like "%"#{mohu}"%"
+</select>
+```
+
+:::
+
+> 其中`select * from t_user where username like "%"#{mohu}"%"`是最常用的
+
+### 批量删除
+
+只能使用 ${}，如果使用 #{}，则解析后的sql语句为 `delete from t_user where id in ('1,2,3')`，这样是将 `1,2,3` 看做是一个整体，只有id为 `1,2,3` 的数据会被删除。
+
+正确的语句应该是 `delete from t_user where id in (1,2,3)`，或者 `delete from t_user where id in ('1','2','3')`
+
+:::code-group
+
+```java [java]
+/**
+ * 根据id批量删除
+ * @param ids
+ * @return int
+ */
+int deleteMore(@Param("ids") String ids);
+```
+
+```xml [xml]
+<delete id="deleteMore">
+	delete from t_user where id in (${ids})
+</delete>
+```
+
+:::
+
+### 动态设置表名
+
+:::code-group
+
+```java [java]
+/**
+ * 查询指定表中的数据
+ * @param tableName
+ * @return java.util.List<com.atguigu.mybatis.pojo.User>
+ */
+List<User> getUserByTable(@Param("tableName") String tableName);
+```
+
+```xml [xml]
+<!--List<User> getUserByTable(@Param("tableName") String tableName);-->
+<select id="getUserByTable" resultType="User">
+	select * from ${tableName}
+</select>
+```
+
+:::
+
+### 添加功能获取自增的主键
+
+在 mapper.xml 中设置两个属性
+
+- useGeneratedKeys：设置使用自增的主键
+- keyProperty：因为增删改有统一的返回值是受影响的行数，因此只能将获取的自增的主键放在传输的参数 user 对象的某个属性中
+
+:::code-group
+
+```java [java]
+/**
+ * 添加用户信息
+ * @param user
+ */
+void insertUser(User user);
+```
+
+```xml [xml]
+<!--void insertUser(User user);-->
+<insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+	insert into t_user values (null,#{username},#{password},#{age},#{sex},#{email})
+</insert>
+```
+
+:::
+
+## 映射处理
+
+### resultType
+
+若字段名和实体类中的属性名不一致，但是字段名符合数据库的规则（使用\_），实体类中的属性名符合Java的规则（使用驼峰）。此时也可通过以下两种方式处理字段名和实体类中的属性的映射关系
+
+:::code-group
+
+```xml [方法一：字段起别名]
+<!--List<Emp> getAllEmp();-->
+<select id="getAllEmp" resultType="Emp">
+  select eid,emp_name empName,age,sex,email from t_emp
+</select>
+```
+
+```xml [方法二：全局配置]
+<!-- 可以在MyBatis的核心配置文件中的`setting`标签中，设置一个全局配置信息mapUnderscoreToCamelCase
+可以在查询表中数据时，自动将_类型的字段名转换为驼峰，例如：字段名user_name
+设置了mapUnderscoreToCamelCase，此时字段名就会转换为userName。[核心配置文件详解](#核心配置文件详解) -->
+<settings>
+  <setting name="mapUnderscoreToCamelCase" value="true"/>
+</settings>
+```
+
+:::
+
+### 自定义映射 resultMap
+
+resultMap处理字段和属性的映射关系
+
+- resultMap：设置自定义映射
+
+  - id：表示自定义映射的唯一标识，不能重复
+  - type：查询的数据要映射的实体类的类型
+
+- id：设置主键的映射关系
+- result：设置普通字段的映射关系
+  - property：设置映射关系中实体类中的属性名
+  - column：设置映射关系中表中的字段名
+
+若字段名和实体类中的属性名不一致，则可以通过 resultMap 设置自定义映射，**即使字段名和属性名一致的属性也要映射，也就是全部属性都要列出来**
+
+```xml
+<!--List<Emp> getAllEmp();-->
+<select id="getAllEmp" resultMap="empResultMap">
+	select * from t_emp
+</select>
+
+<resultMap id="empResultMap" type="Emp">
+	<id property="eid" column="eid"></id>
+	<result property="empName" column="emp_name"></result>
+	<result property="age" column="age"></result>
+	<result property="sex" column="sex"></result>
+	<result property="email" column="email"></result>
+</resultMap>
+```
+
+resultMap 一般**多用于**处理多对一或者一对多的关系
+
+### 多对一映射处理
+
+查询员工信息以及员工所对应的部门信息
+
+:::code-group
+
+```java [Emp]
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Emp {
+    private Integer id; //ID
+    private String username; //用户名
+    private String password; //密码
+    private String name; //姓名
+    private Short gender; //性别 , 1 男, 2 女
+    private String image; //图像url
+    private Short job; //职位 , 1 班主任 , 2 讲师 , 3 学工主管 , 4 教研主管 , 5 咨询师
+    private LocalDate entrydate; //入职日期
+    private Integer deptId; //部门ID
+    private LocalDateTime createTime; //创建时间
+    private LocalDateTime updateTime; //修改时间
+
+    private Dept dept;
+}
+```
+
+```java [Dept]
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Dept {
+  private Integer id;
+  private String name;
+
+  private List<Emp> emps;
+}
+```
+
+:::
+
+:::code-group
+
+```xml [方法一: 级联方式] {18,19}
+<select id="getEmpAndDept" resultMap="EmpDeptResultMap">
+    select emp.*, dept.id as dept_id, dept.name as dept_name from emp LEFT JOIN dept on emp.dept_id = dept.id where
+    emp.id = #{id}
+</select>
+
+<resultMap id="EmpDeptResultMap" type="com.chulan.springbootdemo.po.Emp">
+    <id property="id" column="id"/>
+    <result property="username" column="username"/>
+    <result property="password" column="password"/>
+    <result property="name" column="name"/>
+    <result property="gender" column="gender"/>
+    <result property="image" column="image"/>
+    <result property="job" column="job"/>
+    <result property="entrydate" column="entrydate"/>
+    <result property="deptId" column="dept_id"/>
+    <result property="createTime" column="create_time"/>
+    <result property="updateTime" column="update_time"/>
+    <result property="dept.id" column="dept_id"></result>
+    <result property="dept.name" column="dept_name"></result>
+</resultMap>
+```
+
+```xml [方法二: association] {18-21}
+<select id="getEmpAndDept" resultMap="EmpDeptResultMap">
+    select emp.*, dept.id as dept_id, dept.name as dept_name from emp LEFT JOIN dept on emp.dept_id = dept.id where
+    emp.id = #{id}
+</select>
+
+<resultMap id="EmpDeptResultMap" type="com.chulan.springbootdemo.po.Emp">
+    <id property="id" column="id"/>
+    <result property="username" column="username"/>
+    <result property="password" column="password"/>
+    <result property="name" column="name"/>
+    <result property="gender" column="gender"/>
+    <result property="image" column="image"/>
+    <result property="job" column="job"/>
+    <result property="entrydate" column="entrydate"/>
+    <result property="deptId" column="dept_id"/>
+    <result property="createTime" column="create_time"/>
+    <result property="updateTime" column="update_time"/>
+    <association property="dept" javaType="com.chulan.springbootdemo.po.Dept">
+        <id property="id" column="dept_id"/>
+        <result property="name" column="dept_name"/>
+    </association>
+</resultMap>
+```
+
+```xml [方法三: 分步查询一]
+<!--分步查询-->
+<!--第一步查询员工信息-->
+<!--Emp getEmpAndDeptByStepOne(@Param("id") Integer id);-->
+<select id="getEmpAndDeptByStepOne" resultMap="empAndDeptByStepResultMap">
+    select * from emp where id = #{id}
+</select>
+
+<resultMap id="empAndDeptByStepResultMap" type="com.chulan.springbootdemo.po.Emp">
+    <id property="id" column="id"/>
+    <result property="username" column="username"/>
+    <result property="password" column="password"/>
+    <result property="name" column="name"/>
+    <result property="gender" column="gender"/>
+    <result property="image" column="image"/>
+    <result property="job" column="job"/>
+    <result property="entrydate" column="entrydate"/>
+    <result property="deptId" column="dept_id"/>
+    <result property="createTime" column="create_time"/>
+    <result property="updateTime" column="update_time"/>
+    <association
+            property="dept"
+            select="com.chulan.springbootdemo.mapper.EmpMapper.getEmpAndDeptByStepTwo"
+            column="dept_id"></association>
+</resultMap>
+```
+
+```xml [方法三: 分步查询二]
+<!--第二步查询部门信息-->
+<!--Dept getEmpAndDeptByStepTwo(@Param("deptId") Integer deptId);-->
+<select id="getEmpAndDeptByStepTwo" resultMap="empAndDeptByStepTwoResultMap">
+    select id as dept_id, name as dept_name from dept where id = #{deptId}
+</select>
+
+<resultMap id="empAndDeptByStepTwoResultMap" type="com.chulan.springbootdemo.po.Dept">
+    <id property="id" column="dept_id"></id>
+    <result property="name" column="dept_name"></result>
+</resultMap>
+```
+
+:::
+
+association: 处理多对一的映射关系
+
+- property：需要处理多对的映射关系的属性名
+- javaType：该属性的类型
+- select：设置分布查询的sql的唯一标识（namespace.SQLId或mapper接口的全类名.方法名）
+- column：设置分步查询的条件
+
+### 一对多映射处理
+
+:::code-group
+
+```xml [方法一: collection] {8-20}
+<select id="getDeptAndEmp" resultMap="DeptAndEmpResultMap">
+    SELECT *, emp.id as emp_id FROM dept LEFT JOIN emp on dept.id = emp.dept_id where dept.id = #{id}
+</select>
+
+<resultMap id="DeptAndEmpResultMap" type="com.chulan.springbootdemo.po.Dept">
+    <id property="id" column="id"></id>
+    <result property="name" column="name"></result>
+    <collection property="emps" ofType="com.chulan.springbootdemo.po.Emp">
+        <id property="id" column="emp_id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="gender" column="gender"/>
+        <result property="image" column="image"/>
+        <result property="job" column="job"/>
+        <result property="entrydate" column="entrydate"/>
+        <result property="deptId" column="dept_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </collection>
+</resultMap>
+```
+
+```xml [方法二: 分步查询一]
+<!--第一步查询部门信息-->
+<!--Dept getDeptAndEmpByStepOne(@Param("id") Integer id);-->
+<select id="getDeptAndEmpByStepOne" resultMap="deptAndEmpResultMap">
+    select * from dept where id = #{id}
+</select>
+
+<resultMap id="deptAndEmpResultMap" type="com.chulan.springbootdemo.po.Dept">
+    <id property="id" column="id"></id>
+    <result property="name" column="name"></result>
+    <collection property="emps"
+                select="com.chulan.springbootdemo.mapper.EmpMapper.getDeptAndEmpByStepTwo"
+                column="id"></collection>
+</resultMap>
+```
+
+```xml [方法二: 分步查询二]
+<!--第二步查询员工信息-->
+<!--List<Emp> getDeptAndEmpByStepTwo(@Param("deptId") Integer deptId);-->
+<select id="getDeptAndEmpByStepTwo" resultType="com.chulan.springbootdemo.po.Emp">
+    select * from emp where dept_id = #{deptId}
+</select>
+```
+
+:::
+
+## 相关资料
+
+[Mybatis 类型别名](https://mybatis.org/mybatis-3/zh_CN/configuration.html#typeAliases)

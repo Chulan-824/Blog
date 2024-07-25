@@ -1,5 +1,18 @@
 # Keyboard Shortcuts
 
+## IntelliJ IDEA
+
+|                      |                描述                |
+| :------------------: | :--------------------------------: |
+|    Option + Enter    |         查看弹出的修复建议         |
+| Shift + Command + ↑↓ |            移动行(上下)            |
+|    Shift + Enter     |            切换到下一行            |
+| Option + Command + L |               格式化               |
+|     Control + G      | 逐个选中代码中后续匹配的字符或单词 |
+|   Cmd + Shift + /    |              多行注释              |
+|       Cmd + D        |    当前行的代码会被复制到下一行    |
+|       Cmd + N        |           打开代码生成器           |
+
 ## Github Copilot
 
 |              |             描述             |
