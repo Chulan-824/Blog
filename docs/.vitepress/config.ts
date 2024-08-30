@@ -254,5 +254,10 @@ function sidebarOther() {
       collapsed: false,
       link: 'problem',
     },
+    {
+      text: 'Chapter优化',
+      collapsed: false,
+      link: 'chapter/index',
+    },
   ]
 }
