@@ -65,7 +65,7 @@ export default defineConfig({
 function nav() {
   return [
     { text: 'Home', link: '/' },
-    { text: 'JavaScript', link: '/javascript/module' },
+    { text: 'JavaScript', link: '/javascript/engineering/module' },
     { text: 'Java', link: '/java/spring-boot/ioc-di' },
     { text: 'English Grammar', link: '/english/elementary/noun' },
     { text: 'Other', link: '/other/keyboard-shortcuts' },
@@ -77,7 +77,10 @@ function sidebarJavaScript() {
     {
       text: '前端工程化',
       collapsed: false,
-      items: [{ text: '模块化', link: 'module' }],
+      items: [
+        { text: '模块化', link: 'engineering/module' },
+        { text: '环境变量', link: 'engineering/environment' },
+      ],
     },
     {
       text: 'React设计原理理念篇',
@@ -213,7 +216,7 @@ function sidebarJava() {
     {
       text: 'MyBatis',
       link: 'mybatis',
-    }
+    },
   ]
 }
 
@@ -245,6 +248,11 @@ function sidebarOther() {
       text: '快捷键',
       collapsed: false,
       link: 'keyboard-shortcuts',
+    },
+    {
+      text: '随笔问题',
+      collapsed: false,
+      link: 'problem',
     },
   ]
 }
