@@ -205,6 +205,7 @@ function sidebarJava() {
         { text: '配置文件', link: 'spring-boot/configuration' },
         { text: 'Lombok', link: 'spring-boot/lombok' },
         { text: 'MySQL', link: 'spring-boot/mysql' },
+        { text: 'MongoDB', link: 'spring-boot/mongodb' },
         { text: 'Logback', link: 'spring-boot/logback' },
         { text: 'JWT', link: 'spring-boot/jwt' },
         { text: '拦截器', link: 'spring-boot/interceptor' },
