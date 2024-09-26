@@ -1,6 +1,9 @@
 <script setup>
 import ImgMongoDB1 from '../images/mongodb-1.png'
 import ImgMongoDB2 from '../images/mongodb-2.png'
+import ImgMongoDB3 from '../images/mongodb-3.png'
+import ImgMongoDB4 from '../images/mongodb-4.png'
+import ImgMongoDB5 from '../images/mongodb-5.png'
 </script>
 
 # MongoDB
@@ -30,6 +33,26 @@ import ImgMongoDB2 from '../images/mongodb-2.png'
    -在终端中输入 `mongod -version`，如果显示了 MongoDB 的版本号，则表示安装成功。
 
 <Image :src="ImgMongoDB2" />
+
+4. 创建数据目录和日志目录：
+
+- 在 `/usr/local/mongodb`（或你的 MongoDB 安装目录）下创建 `data` 和 `log` 两个文件夹。可以使用命令 `mkdir data log` 来创建。
+- 赋予这些文件夹适当的读写权限，例如使用 `sudo chmod 755 /usr/local/mongodb/data /usr/local/mongodb/log`。
+
+5. 启动 MongoDB 服务
+
+- 在终端中，进入 MongoDB 的 bin 目录（如果你已经将 bin 目录添加到 PATH，则可以直接执行以下命令）。
+- 使用命令 `mongod --dbpath /usr/local/mongodb/data --logpath /usr/local/mongodb/log/mongod.log --logappend --fork` 来启动 MongoDB 服务。--fork 参数会让 MongoDB 在后台运行。
+
+<Image :src="ImgMongoDB3" />
+<Image :src="ImgMongoDB4" />
+
+6. 关闭 MongoDB 服务
+
+- pkill mongod
+- pgrep mongod （查看 MongoDB 进程的 PID）
+
+<Image :src="ImgMongoDB5" />
 
 ## 相关资料
 
