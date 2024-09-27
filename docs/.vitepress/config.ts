@@ -83,6 +83,13 @@ function sidebarJavaScript() {
       ],
     },
     {
+      text: 'NextJs',
+      collapsed: false,
+      items: [
+        { text: '项目初始化', link: 'next/init' },
+      ],
+    },
+    {
       text: 'React设计原理理念篇',
       collapsed: false,
       items: [
