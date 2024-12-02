@@ -1,37 +1,247 @@
 {
-  "hash": "b1a5b04d",
-  "configHash": "58f533e1",
-  "lockfileHash": "164bf9f3",
-  "browserHash": "dd78e1aa",
+  "hash": "419d8ac0",
+  "configHash": "ef99cb67",
+  "lockfileHash": "9c254d42",
+  "browserHash": "3895c371",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.4.21/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "7f4dad34",
+      "fileHash": "220c5e79",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.25_vue@3.4.21/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "dab608ff",
+      "fileHash": "3087ab63",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.21/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "e9d834b5",
+      "fileHash": "ac64743a",
       "needsInterop": false
     },
     "ant-design-vue": {
       "src": "../../../../node_modules/.pnpm/ant-design-vue@4.1.2_vue@3.4.21/node_modules/ant-design-vue/es/index.js",
       "file": "ant-design-vue.js",
-      "fileHash": "2db872b1",
+      "fileHash": "1943b8dd",
+      "needsInterop": false
+    },
+    "mermaid": {
+      "src": "../../../../node_modules/.pnpm/mermaid@11.4.1/node_modules/mermaid/dist/mermaid.core.mjs",
+      "file": "mermaid.js",
+      "fileHash": "a9b84ecf",
+      "needsInterop": false
+    },
+    "uuid": {
+      "src": "../../../../node_modules/.pnpm/uuid@11.0.3/node_modules/uuid/dist/esm-browser/index.js",
+      "file": "uuid.js",
+      "fileHash": "091429ad",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-MLWSMURK": {
-      "file": "chunk-MLWSMURK.js"
+    "sankeyDiagram-Y46BX6SQ-3ZL4NFDM": {
+      "file": "sankeyDiagram-Y46BX6SQ-3ZL4NFDM.js"
+    },
+    "diagram-QW4FP2JN-EDWTUJYT": {
+      "file": "diagram-QW4FP2JN-EDWTUJYT.js"
+    },
+    "blockDiagram-ZHA2E4KO-LGEE25BY": {
+      "file": "blockDiagram-ZHA2E4KO-LGEE25BY.js"
+    },
+    "architectureDiagram-UYN6MBPD-K6T34JE5": {
+      "file": "architectureDiagram-UYN6MBPD-K6T34JE5.js"
+    },
+    "classDiagram-LNE6IOMH-T6OQK7GH": {
+      "file": "classDiagram-LNE6IOMH-T6OQK7GH.js"
+    },
+    "classDiagram-v2-MQ7JQ4JX-ICUC3WJX": {
+      "file": "classDiagram-v2-MQ7JQ4JX-ICUC3WJX.js"
+    },
+    "chunk-L25UV6GS": {
+      "file": "chunk-L25UV6GS.js"
+    },
+    "stateDiagram-MAYHULR4-IE65NZX7": {
+      "file": "stateDiagram-MAYHULR4-IE65NZX7.js"
+    },
+    "stateDiagram-v2-4JROLMXI-TMGRBRDR": {
+      "file": "stateDiagram-v2-4JROLMXI-TMGRBRDR.js"
+    },
+    "chunk-WAPLP7RX": {
+      "file": "chunk-WAPLP7RX.js"
+    },
+    "journeyDiagram-G5WM74LC-YXW43WPA": {
+      "file": "journeyDiagram-G5WM74LC-YXW43WPA.js"
+    },
+    "timeline-definition-U7ZMHBDA-SL47MKLP": {
+      "file": "timeline-definition-U7ZMHBDA-SL47MKLP.js"
+    },
+    "mindmap-definition-GWI6TPTV-7H72AUX5": {
+      "file": "mindmap-definition-GWI6TPTV-7H72AUX5.js"
+    },
+    "chunk-ZJGSD2DE": {
+      "file": "chunk-ZJGSD2DE.js"
+    },
+    "kanban-definition-QRCXZQQD-PZJU24X6": {
+      "file": "kanban-definition-QRCXZQQD-PZJU24X6.js"
+    },
+    "gitGraphDiagram-NRZ2UAAF-4S6FPWHS": {
+      "file": "gitGraphDiagram-NRZ2UAAF-4S6FPWHS.js"
+    },
+    "ganttDiagram-NTVNEXSI-QHXFYRPC": {
+      "file": "ganttDiagram-NTVNEXSI-QHXFYRPC.js"
+    },
+    "infoDiagram-A4XQUW5V-6QT2TG4Y": {
+      "file": "infoDiagram-A4XQUW5V-6QT2TG4Y.js"
+    },
+    "pieDiagram-YF2LJOPJ-XGEHVKPD": {
+      "file": "pieDiagram-YF2LJOPJ-XGEHVKPD.js"
+    },
+    "chunk-PFIIS7LG": {
+      "file": "chunk-PFIIS7LG.js"
+    },
+    "chunk-SGMX6HAO": {
+      "file": "chunk-SGMX6HAO.js"
+    },
+    "quadrantDiagram-OS5C2QUG-ZVVGYXDP": {
+      "file": "quadrantDiagram-OS5C2QUG-ZVVGYXDP.js"
+    },
+    "xychartDiagram-6QU3TZC5-HLFPS34P": {
+      "file": "xychartDiagram-6QU3TZC5-HLFPS34P.js"
+    },
+    "requirementDiagram-MIRIMTAZ-SG5I3DE2": {
+      "file": "requirementDiagram-MIRIMTAZ-SG5I3DE2.js"
+    },
+    "sequenceDiagram-G6AWOVSC-BBW6PQKZ": {
+      "file": "sequenceDiagram-G6AWOVSC-BBW6PQKZ.js"
+    },
+    "chunk-5V6LLDRA": {
+      "file": "chunk-5V6LLDRA.js"
+    },
+    "c4Diagram-6F5ED5ID-LBFHCWGU": {
+      "file": "c4Diagram-6F5ED5ID-LBFHCWGU.js"
+    },
+    "chunk-7PUUT4RA": {
+      "file": "chunk-7PUUT4RA.js"
+    },
+    "flowDiagram-7ASYPVHJ-O6BNUCGU": {
+      "file": "flowDiagram-7ASYPVHJ-O6BNUCGU.js"
+    },
+    "chunk-O7JIPDY4": {
+      "file": "chunk-O7JIPDY4.js"
+    },
+    "erDiagram-6RL3IURR-N73DD7EJ": {
+      "file": "erDiagram-6RL3IURR-N73DD7EJ.js"
+    },
+    "info-46DW6VJ7-V75VIPS3": {
+      "file": "info-46DW6VJ7-V75VIPS3.js"
+    },
+    "chunk-Q6YH225H": {
+      "file": "chunk-Q6YH225H.js"
+    },
+    "packet-W2GHVCYJ-I7UK6TED": {
+      "file": "packet-W2GHVCYJ-I7UK6TED.js"
+    },
+    "chunk-6FAEXY7D": {
+      "file": "chunk-6FAEXY7D.js"
+    },
+    "pie-BEWT4RHE-UOYSKJRB": {
+      "file": "pie-BEWT4RHE-UOYSKJRB.js"
+    },
+    "chunk-OBMFHUDM": {
+      "file": "chunk-OBMFHUDM.js"
+    },
+    "architecture-I3QFYML2-YVB65ASV": {
+      "file": "architecture-I3QFYML2-YVB65ASV.js"
+    },
+    "chunk-ELFREQUP": {
+      "file": "chunk-ELFREQUP.js"
+    },
+    "gitGraph-YCYPL57B-EY7HXBPX": {
+      "file": "gitGraph-YCYPL57B-EY7HXBPX.js"
+    },
+    "chunk-6XVTKKU6": {
+      "file": "chunk-6XVTKKU6.js"
+    },
+    "chunk-SKL5ZKVD": {
+      "file": "chunk-SKL5ZKVD.js"
+    },
+    "chunk-ZWIBLHWA": {
+      "file": "chunk-ZWIBLHWA.js"
+    },
+    "chunk-3DXR62HT": {
+      "file": "chunk-3DXR62HT.js"
+    },
+    "chunk-6E73OL6Z": {
+      "file": "chunk-6E73OL6Z.js"
+    },
+    "chunk-UNJFG2LW": {
+      "file": "chunk-UNJFG2LW.js"
+    },
+    "chunk-HWSUFJAU": {
+      "file": "chunk-HWSUFJAU.js"
+    },
+    "chunk-JMTVT5TM": {
+      "file": "chunk-JMTVT5TM.js"
+    },
+    "chunk-75KKPU32": {
+      "file": "chunk-75KKPU32.js"
+    },
+    "katex-EACPAXOV": {
+      "file": "katex-EACPAXOV.js"
+    },
+    "dagre-4EVJKHTY-YFAK7SJJ": {
+      "file": "dagre-4EVJKHTY-YFAK7SJJ.js"
+    },
+    "chunk-SVC6ZOPM": {
+      "file": "chunk-SVC6ZOPM.js"
+    },
+    "chunk-2PTEVEBK": {
+      "file": "chunk-2PTEVEBK.js"
+    },
+    "chunk-L5FDRETJ": {
+      "file": "chunk-L5FDRETJ.js"
+    },
+    "chunk-ODOR5W7V": {
+      "file": "chunk-ODOR5W7V.js"
+    },
+    "chunk-55MYBHLN": {
+      "file": "chunk-55MYBHLN.js"
+    },
+    "chunk-EUPWURKX": {
+      "file": "chunk-EUPWURKX.js"
+    },
+    "chunk-STE34YSB": {
+      "file": "chunk-STE34YSB.js"
+    },
+    "chunk-MPWTUE4W": {
+      "file": "chunk-MPWTUE4W.js"
+    },
+    "chunk-ZV2TI3RL": {
+      "file": "chunk-ZV2TI3RL.js"
+    },
+    "chunk-3CZWXKWJ": {
+      "file": "chunk-3CZWXKWJ.js"
+    },
+    "chunk-HZ2CNPFS": {
+      "file": "chunk-HZ2CNPFS.js"
+    },
+    "chunk-SNVQTEYG": {
+      "file": "chunk-SNVQTEYG.js"
+    },
+    "chunk-M7WFIVWU": {
+      "file": "chunk-M7WFIVWU.js"
+    },
+    "chunk-QSIDKSFH": {
+      "file": "chunk-QSIDKSFH.js"
+    },
+    "chunk-MGWS6JE3": {
+      "file": "chunk-MGWS6JE3.js"
+    },
+    "chunk-FWQR44H4": {
+      "file": "chunk-FWQR44H4.js"
     }
   }
 }

@@ -85,9 +85,7 @@ function sidebarJavaScript() {
     {
       text: 'NextJs',
       collapsed: false,
-      items: [
-        { text: '项目初始化', link: 'next/init' },
-      ],
+      items: [{ text: '项目初始化', link: 'next/init' }],
     },
     {
       text: 'React设计原理理念篇',
@@ -266,6 +264,11 @@ function sidebarOther() {
       text: 'Chapter优化',
       collapsed: false,
       link: 'chapter/index',
+    },
+    {
+      text: 'OAuth一键登录',
+      collapsed: false,
+      link: 'oauth',
     },
   ]
 }
