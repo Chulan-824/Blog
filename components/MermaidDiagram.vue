@@ -4,9 +4,8 @@
 
 <script setup lang="ts">
 // @ts-expect-error
-import { onMounted, watch } from 'vue'
-import mermaid from 'mermaid'
-import { v4 as uuidv4 } from 'uuid' // 可选，用于生成唯一ID
+import { onMounted, watch, ref } from 'vue'
+import { v4 as uuidv4 } from 'uuid'
 
 const props = defineProps({
   diagram: {
@@ -17,10 +16,16 @@ const props = defineProps({
 
 // 生成唯一ID，防止多个图表冲突
 const id = `mermaid-${uuidv4()}`
+const isClient = ref(false)
 
 // 初始化并渲染图表
 const initMermaid = async () => {
+  if (!isClient.value) return
+
   try {
+    // 动态导入 mermaid，确保只在客户端加载
+    const { default: mermaid } = await import('mermaid')
+    
     // 初始化配置
     mermaid.initialize({
       startOnLoad: true,
@@ -46,10 +51,13 @@ const initMermaid = async () => {
 }
 
 // 监听输入变化
-watch(() => props.diagram, initMermaid, { immediate: false })
+watch(() => props.diagram, initMermaid)
 
 // 组件挂载时初始化
-onMounted(initMermaid)
+onMounted(() => {
+  isClient.value = true
+  initMermaid()
+})
 </script>
 
 <style scoped>
