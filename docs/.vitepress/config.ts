@@ -188,6 +188,11 @@ function sidebarJavaScript() {
       collapsed: false,
       items: [{ text: 'rebase', link: 'git/rebase/' }],
     },
+    {
+      text: 'Hooks',
+      collapsed: false,
+      items: [{ text: 'useMemoizedCallback', link: 'hooks/useMemoizedCallback' }],
+    },
     { text: 'Vue设计与实现笔记', link: 'vue/concept/' },
     { text: '计算机网络基础概念', link: 'http/base/' },
     { text: 'js继承', link: 'js/base/inherit' },
@@ -269,6 +274,13 @@ function sidebarOther() {
       text: 'OAuth一键登录',
       collapsed: false,
       link: 'oauth',
+    },
+    {
+      text: 'Docker',
+      collapsed: false,
+      items: [
+        { text: 'OrbStack', link: 'docker/orbstack' },
+      ]
     },
   ]
 }
