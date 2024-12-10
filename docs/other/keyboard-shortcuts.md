@@ -23,3 +23,17 @@
 |  Option + ]  |          下一条建议          |
 |  Option + [  |          上一条建议          |
 | Option + \   |       触发行内 Copilot       |
+
+## Terminal
+
+生成 64 位十六进制数字
+
+``` bash
+openssl rand -hex 32
+```
+
+生成 uuid
+
+```bash
+uuidgen
+```

@@ -69,3 +69,13 @@ const handleClick = useMemoizedCallback(() => {
   console.log(count); // 总是访问最新的 count
 }); // 函数引用永远不变
 ```
+
+## 快速使用
+
+如果项目本身就已经使用 ahooks ，可以直接使用 `useMemoizedFn`，无需再单独封装。
+
+## 参考
+
+[ahooks](https://github.com/alibaba/hooks)
+
+[useMemoizedCallback](https://github.com/alibaba/hooks)
