@@ -191,7 +191,9 @@ function sidebarJavaScript() {
     {
       text: 'Hooks',
       collapsed: false,
-      items: [{ text: 'useMemoizedCallback', link: 'hooks/useMemoizedCallback' }],
+      items: [
+        { text: 'useMemoizedCallback', link: 'hooks/useMemoizedCallback' },
+      ],
     },
     { text: 'Vue设计与实现笔记', link: 'vue/concept/' },
     { text: '计算机网络基础概念', link: 'http/base/' },
@@ -248,6 +250,7 @@ function sidebarEnglish() {
           link: 'elementary/verb-category-two',
         },
         { text: '英文时态', link: 'elementary/english-tenses' },
+        { text: '状语', link: 'elementary/adverbial' },
       ],
     },
   ]
@@ -278,9 +281,12 @@ function sidebarOther() {
     {
       text: 'Docker',
       collapsed: false,
-      items: [
-        { text: 'OrbStack', link: 'docker/orbstack' },
-      ]
+      items: [{ text: 'OrbStack', link: 'docker/orbstack' }],
     },
+    // {
+    //   text: '制作中心',
+    //   collapsed: false,
+    //   link: 'production-center',
+    // },
   ]
 }
