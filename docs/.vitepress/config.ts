@@ -253,6 +253,7 @@ function sidebarEnglish() {
         { text: '状语', link: 'elementary/adverbial' },
       ],
     },
+    { text: '记录', link: 'note' },
   ]
 }
 
