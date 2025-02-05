@@ -284,6 +284,11 @@ function sidebarOther() {
       collapsed: false,
       items: [{ text: 'OrbStack', link: 'docker/orbstack' }],
     },
+    {
+      text: '读书笔记',
+      collapsed: false,
+      items: [{ text: '如何阅读一本书', link: 'reading/how-to-read-a-book' }],
+    },
     // {
     //   text: '制作中心',
     //   collapsed: false,
