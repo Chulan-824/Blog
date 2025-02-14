@@ -107,3 +107,16 @@ Error Handling and Validation
 - Use guard clauses to handle preconditions and invalid states early.
 - Implement proper error logging and user-friendly error messages.
 - Consider using custom error types or error factories for consistent error handling.
+
+## AI 提问技巧
+
+### 万能公式：4 步提问法
+
+**明确身份+具体任务+细节约束+输出格式**
+
+公式拆解
+
+1. 身份：你是谁？（学生/打工人/新手妈妈…）
+2. 任务：要解决什么问题？（写报告/做计划/分析数据…）
+3. 细节：限制条件是什么？（时间/场景/禁忌…）
+4. 格式：想要什么形式的结果？（表格/分段/口语化…）
