@@ -15,6 +15,7 @@ export default defineConfig({
     sidebar: {
       '/javascript/': { base: '/javascript/', items: sidebarJavaScript() },
       '/java/': { base: '/java/', items: sidebarJava() },
+      '/go/': { base: '/go/', items: sidebarGo() },
       '/english/': { base: '/english/', items: sidebarEnglish() },
       '/other/': { base: '/other/', items: sidebarOther() },
     },
@@ -67,6 +68,7 @@ function nav() {
     { text: 'Home', link: '/' },
     { text: 'JavaScript', link: '/javascript/engineering/module' },
     { text: 'Java', link: '/java/spring-boot/ioc-di' },
+    { text: 'Go', link: '/go/go-struct-notes' },
     { text: 'English Grammar', link: '/english/elementary/noun' },
     { text: 'Other', link: '/other/keyboard-shortcuts' },
   ]
@@ -198,6 +200,7 @@ function sidebarJavaScript() {
     { text: 'Vue设计与实现笔记', link: 'vue/concept/' },
     { text: '计算机网络基础概念', link: 'http/base/' },
     { text: 'js继承', link: 'js/base/inherit' },
+    { text: 'ts枚举替代方案', link: 'enum-alternative' },
   ]
 }
 
@@ -229,6 +232,26 @@ function sidebarJava() {
     {
       text: 'MyBatis',
       link: 'mybatis',
+    },
+  ]
+}
+
+function sidebarGo() {
+  return [
+    {
+      text: 'Go基础',
+      collapsed: false,
+      items: [
+        { text: 'Go Package', link: 'go-package-notes' },
+        { text: 'Go 变量与常量', link: 'go-variable-notes' },
+        { text: 'Go 函数', link: 'go-function-notes' },
+        { text: 'Go 流程控制', link: 'go-process-control-notes' },
+        { text: 'Go 结构体', link: 'go-struct-notes' },
+        { text: 'Go 数组与切片', link: 'go-array-notes' },
+        { text: 'Go Map', link: 'go-map-notes' },
+        { text: 'Go Interface', link: 'go-interface-notes' },
+        { text: 'Go Goroutine', link: 'go-goroutine-notes' },
+      ],
     },
   ]
 }
