@@ -303,6 +303,11 @@ function sidebarOther() {
       link: 'oauth',
     },
     {
+      text: '事件命名规则',
+      collapsed: false,
+      link: 'event-naming-rules',
+    },
+    {
       text: 'Docker',
       collapsed: false,
       items: [{ text: 'OrbStack', link: 'docker/orbstack' }],
