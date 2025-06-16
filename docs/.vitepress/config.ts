@@ -82,6 +82,7 @@ function sidebarJavaScript() {
       items: [
         { text: '模块化', link: 'engineering/module' },
         { text: '环境变量', link: 'engineering/environment' },
+        { text: '语义化版本控制', link: 'engineering/semantic-versioning' },
       ],
     },
     {
