@@ -202,6 +202,7 @@ function sidebarJavaScript() {
       collapsed: false,
       items: [
         { text: 'useMemoizedCallback', link: 'hooks/useMemoizedCallback' },
+        { text: 'useConstantFactory', link: 'hooks/useConstantFactory' },
       ],
     },
     { text: 'Vue设计与实现笔记', link: 'vue/concept/' },
