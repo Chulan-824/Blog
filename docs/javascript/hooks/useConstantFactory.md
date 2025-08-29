@@ -1,4 +1,4 @@
-# useConstantFactory 常量工厂 Hook 技术文档
+# useConstantFactory 常量工厂 Hook 
 
 ## 概述
 
