@@ -16,6 +16,7 @@
 | **sing.**   | Singular       | 单数形式。                                 |
 | **aux. v.** | Auxiliary Verb | 助动词，辅助主要动词表示时态、语气等。     |
 | **pron.**   | Pronunciation  | 发音，表示单词的读音规则。                 |
+| **phr.**    | Phrase         | 短语或词组                                 |
 
 ## 人称代词
 

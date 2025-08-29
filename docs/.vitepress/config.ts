@@ -88,7 +88,13 @@ function sidebarJavaScript() {
     {
       text: 'NextJs',
       collapsed: false,
-      items: [{ text: '项目初始化', link: 'next/init' }],
+      items: [
+        { text: '项目初始化', link: 'next/init' },
+        {
+          text: '核心渲染与部署策略深度解析',
+          link: 'next/nextjs_rendering_and_deployment_guide',
+        },
+      ],
     },
     {
       text: 'React设计原理理念篇',
@@ -314,12 +320,22 @@ function sidebarOther() {
       items: [{ text: 'OrbStack', link: 'docker/orbstack' }],
     },
     {
+      text: 'SuperClaude',
+      collapsed: false,
+      items: [
+        {
+          text: 'SuperClaude V4',
+          link: 'superclaude/SuperClaude_Complete_Guide',
+        },
+      ],
+    },
+    {
       text: '读书笔记',
       collapsed: false,
       items: [{ text: '如何阅读一本书', link: 'reading/how-to-read-a-book' }],
     },
     // {
-    //   text: '制作中心',
+    //   text: '制作中心',claude
     //   collapsed: false,
     //   link: 'production-center',
     // },
