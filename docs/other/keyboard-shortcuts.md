@@ -28,7 +28,7 @@
 
 生成 64 位十六进制数字
 
-``` bash
+```bash
 openssl rand -hex 32
 ```
 
@@ -36,4 +36,43 @@ openssl rand -hex 32
 
 ```bash
 uuidgen
+```
+
+## python
+
+设置虚拟环境
+
+```bash
+python3 -m venv /Users/chulan/project/Python/venv
+```
+
+```bash
+source /Users/chulan/project/Python/venv/bin/activate
+```
+
+退出虚拟环境
+
+```bash
+deactivate
+```
+
+## pyenv
+
+设置项目虚拟环境
+
+```bash
+# python -m venv <虚拟环境文件夹名>
+python -m venv venv
+```
+
+激活虚拟环境
+
+```bash
+source venv/bin/activate
+```
+
+退出虚拟环境
+
+```bash
+deactivate
 ```

@@ -2,3 +2,5 @@ node_modules
 docs/.vitepress/cache
 docs/.vitepress/cache/deps/**
 docs/.vitepress/dist
+
+docs-ai/**

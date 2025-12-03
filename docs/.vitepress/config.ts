@@ -193,11 +193,6 @@ function sidebarJavaScript() {
       ],
     },
     {
-      text: 'Git',
-      collapsed: false,
-      items: [{ text: 'rebase', link: 'git/rebase/' }],
-    },
-    {
       text: 'Hooks',
       collapsed: false,
       items: [
@@ -314,6 +309,15 @@ function sidebarOther() {
       text: '事件命名规则',
       collapsed: false,
       link: 'event-naming-rules',
+    },
+    {
+      text: 'Git',
+      collapsed: false,
+      items: [
+        { text: 'rebase', link: 'git/rebase/' },
+
+        { text: 'worktree', link: 'git/worktree/' },
+      ],
     },
     {
       text: 'Docker',
