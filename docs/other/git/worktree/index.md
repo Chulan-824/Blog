@@ -36,8 +36,8 @@ git worktree add ../my-app-worktrees/feature-payment -b feature-payment
 
 # 4. 验证创建
 git worktree list
-# /Users/yijunjie/Projects/my-app                     abc123 [main]
-# /Users/yijunjie/Projects/my-app-worktrees/feature-payment  def456 [feature-payment]
+# /Users/chulan/Projects/my-app                     abc123 [main]
+# /Users/chulan/Projects/my-app-worktrees/feature-payment  def456 [feature-payment]
 ```
 
 #### 日常创建命令
